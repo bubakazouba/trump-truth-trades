@@ -186,17 +186,267 @@ footer{padding:40px 0 60px;color:var(--muted);font-family:var(--mono);font-size:
     </div>
   </section>
 
-  <section>
-    <div class="limits">
-      <h3>Reaction speed &mdash; how fast does the move happen? <span style="font-weight:400;opacity:.7">(intraday sub-study, n=3 in-hours posts)</span></h3>
-      <ul>
-        <li><b>Sub-minute.</b> On the 3 praise posts that landed during market hours (real Polygon 1-minute bars), the jump hit <em>inside the post&rsquo;s own 1-minute bar</em> &mdash; Palantir +2.3% and Tesla +0.7% within that single minute, on a ~10&times; volume spike.</li>
-        <li><b>But it doesn&rsquo;t stick.</b> Those fast pops round-tripped: Tesla netted +0.05% and Palantir +0.68% from the post-minute to the 4pm close; the third (American Eagle, +9.5%) instead moved slowly &mdash; only ~3% in 5&nbsp;min, ~28% in 30&nbsp;min.</li>
-        <li><b>Reported feed latency:</b> Trump Media&rsquo;s Truth API (launch Aug&nbsp;1, 2026) sells his posts to trading firms &ldquo;in milliseconds&rdquo; &mdash; the infrastructure algos pay for, not a measured price move.</li>
-        <li><b>So retail can&rsquo;t catch it:</b> the initial jolt is absorbed within ~60 seconds; a push notification + reading it + tapping buy is tens of seconds to minutes. (Sub-second timing isn&rsquo;t resolvable at 1-minute granularity.)</li>
-      </ul>
-    </div>
-  </section>
+<section class="speed viz-root" id="reaction-speed">
+<style>
+.speed {
+  color-scheme: light;
+  --surface-1:#fcfcfb; --plane:#f9f9f7;
+  --text-primary:#0b0b0b; --text-secondary:#52514e; --muted:#898781;
+  --grid:#e1e0d9; --axis:#c3c2b7; --border:rgba(11,11,11,0.10);
+  --series-1:#2a78d6; --series-2:#008300;
+  font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:var(--text-primary); background:var(--plane);
+  padding:clamp(16px,3vw,28px); border-radius:12px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:where(:not([data-theme="light"])) .speed {
+    color-scheme: dark;
+    --surface-1:#1a1a19; --plane:#0d0d0d;
+    --text-primary:#ffffff; --text-secondary:#c3c2b7; --muted:#898781;
+    --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+    --series-1:#3987e5; --series-2:#008300;
+  }
+}
+:root[data-theme="dark"] .speed {
+  color-scheme: dark;
+  --surface-1:#1a1a19; --plane:#0d0d0d;
+  --text-primary:#ffffff; --text-secondary:#c3c2b7; --muted:#898781;
+  --grid:#2c2c2a; --axis:#383835; --border:rgba(255,255,255,0.10);
+  --series-1:#3987e5; --series-2:#008300;
+}
+.speed *{box-sizing:border-box}
+.speed h2{font-size:clamp(20px,2.6vw,26px);margin:0 0 6px;letter-spacing:-.02em}
+.speed .hero{font-size:clamp(38px,6vw,52px);font-weight:650;line-height:1.05;margin:10px 0 6px;letter-spacing:-.03em}
+.speed .sub{color:var(--text-secondary);font-size:15px;line-height:1.55;max-width:68ch;margin:0 0 4px}
+.speed .card{background:var(--surface-1);border:1px solid var(--border);border-radius:10px;padding:16px 14px 8px;margin:16px 0}
+.speed .card h3{font-size:15px;margin:0 0 2px;font-weight:600}
+.speed .card p.cap{color:var(--text-secondary);font-size:13px;margin:0 0 10px;line-height:1.5}
+.speed .scroll{overflow-x:auto}
+.speed svg.chart{display:block;width:100%;height:auto;min-width:520px;overflow:visible}
+.speed .grid{stroke:var(--grid);stroke-width:1}
+.speed .axis{stroke:var(--axis);stroke-width:1}
+.speed .zero{stroke:var(--axis);stroke-width:1}
+.speed .ref{stroke:var(--muted);stroke-width:1;opacity:.7}
+.speed .reflab{fill:var(--muted);font-size:11px}
+.speed .tick{fill:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+.speed .axlab{fill:var(--text-secondary);font-size:12px}
+.speed .dlab{fill:var(--text-secondary);font-size:12px;font-weight:600}
+.speed .blab{fill:var(--text-secondary);font-size:12px;font-weight:600;font-variant-numeric:tabular-nums}
+.speed .ln{fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+.speed .s1{stroke:var(--series-1)} .speed .s2{stroke:var(--series-2)}
+.speed .s1f{fill:var(--series-1)} .speed .s2f{fill:var(--series-2)}
+.speed .dot{stroke:var(--surface-1);stroke-width:2}
+.speed .band{fill:var(--series-1);opacity:.10}
+.speed .hbar,.speed .cbar{fill:var(--series-1);transition:opacity .12s}
+.speed .hbar:hover,.speed .cbar:hover,.speed .hbar:focus,.speed .cbar:focus{opacity:.72;outline:none}
+.speed .medline{stroke:var(--series-2);stroke-width:2}
+.speed .lead{fill:none;stroke:var(--axis);stroke-width:1}
+.speed .hit{fill:transparent}
+.speed .chair{stroke:var(--muted);stroke-width:1}
+.speed .legend{display:flex;gap:16px;flex-wrap:wrap;align-items:center;margin:2px 0 10px;font-size:13px;color:var(--text-secondary)}
+.speed .legend span{display:inline-flex;align-items:center;gap:7px}
+.speed .key{width:16px;height:2px;border-radius:2px;flex:none}
+.speed .tip{position:fixed;pointer-events:none;z-index:9;background:var(--surface-1);border:1px solid var(--border);
+  border-radius:8px;padding:8px 10px;font-size:12px;color:var(--text-secondary);box-shadow:0 4px 14px rgba(0,0,0,.13);opacity:0;transition:opacity .1s}
+.speed .tip b{color:var(--text-primary);font-size:13px;font-variant-numeric:tabular-nums}
+.speed .tip .r{display:flex;align-items:center;gap:7px;margin-top:3px}
+.speed details{margin:14px 0 0}
+.speed summary{cursor:pointer;font-size:13px;color:var(--text-secondary);padding:6px 0}
+.speed table{border-collapse:collapse;width:100%;font-size:13px;margin-top:8px}
+.speed th,.speed td{text-align:right;padding:6px 10px;border-bottom:1px solid var(--border);font-variant-numeric:tabular-nums}
+.speed th:first-child,.speed td:first-child{text-align:left}
+.speed th{color:var(--text-secondary);font-weight:600}
+.speed .note{font-size:12.5px;color:var(--text-secondary);line-height:1.6;border-left:2px solid var(--axis);padding:2px 0 2px 12px;margin:14px 0 0}
+.speed .warn{background:var(--surface-1);border:1px solid var(--border);border-left:3px solid #eda100;border-radius:8px;padding:12px 14px;font-size:13px;color:var(--text-secondary);line-height:1.6;margin:12px 0}
+</style>
+
+<h2>How fast does a stock move after Trump posts about it?</h2>
+<div class="hero">The first minute is<br>a coin flip</div>
+<p class="sub">Measured on real Polygon 1-minute bars for <b>n&nbsp;=&nbsp;73</b> post–company observations
+(from <b>60</b> distinct posts) that landed while the market was open. Each move is signed in the
+direction the post pushed — praise up, attack down — so a positive number means the stock moved the way
+the post argued.
+<b>The median first-minute move is +0.00%</b>, and only <b>48%</b> of posts
+moved the right way in that minute — no better than chance. The mean move does reach
+<b>+0.139%</b> by +30&nbsp;min (70% hit rate), but it accumulates
+<i>gradually</i> — most of it appears between +5 and +15&nbsp;min, not on impact.</p>
+
+<div class="warn"><b>Sample-size warning — read this before the charts.</b> Of the
+<b>179</b> in-market-hours post–company pairs in the dataset, only <b>73</b> could be
+measured, and those come from just <b>60</b> distinct posts. Polygon's free tier serves roughly
+2 years of minute data, so <b>94</b> ticker-days (everything before ~mid-2024) return
+<i>NOT_AUTHORIZED</i> and cannot be priced at all — that alone removes 102
+observations. This is a small, recency-skewed sample and the observations are not independent
+(see the method note). Treat every number here as indicative, not conclusive.</div>
+
+<div class="card">
+  <h3>Reaction curve — the move by minute</h3>
+  <p class="cap">Mean and median cumulative directional move vs. the last price before the post.
+  The shaded band is the 25th–75th percentile <i>across posts</i> at each minute — it is the spread of
+  individual reactions, not a confidence interval on the mean. n = 73 posts.</p>
+  <div class="legend">
+    <span><i class="key" style="background:var(--series-1)"></i>Mean</span>
+    <span><i class="key" style="background:var(--series-2)"></i>Median</span>
+    <span><i class="key" style="background:var(--series-1);opacity:.25"></i>25th–75th pct</span>
+  </div>
+  <div class="scroll"><svg viewBox="0 0 736 300" role="img" aria-label="Mean and median directional cumulative percent move by minutes after post" class="chart" id="c1">
+  <title>Directional cumulative move, minute 0 to 30 after post</title>
+  <line class="grid" x1="54" x2="624" y1="248.2" y2="248.2"/><line class="grid" x1="54" x2="624" y1="215.4" y2="215.4"/><line class="grid" x1="54" x2="624" y1="182.5" y2="182.5"/><line class="grid" x1="54" x2="624" y1="149.6" y2="149.6"/><line class="grid" x1="54" x2="624" y1="116.8" y2="116.8"/><line class="grid" x1="54" x2="624" y1="83.9" y2="83.9"/><line class="grid" x1="54" x2="624" y1="51.0" y2="51.0"/><line class="grid" x1="54" x2="624" y1="18.1" y2="18.1"/><line class="zero" x1="54" x2="624" y1="182.5" y2="182.5"/>
+  <line class="axis" x1="54" x2="54" y1="18" y2="260"/>
+  <line class="axis" x1="54" x2="624" y1="260" y2="260"/>
+  <text class="tick" x="46" y="252.2" text-anchor="end">-0.20%</text><text class="tick" x="46" y="219.4" text-anchor="end">-0.10%</text><text class="tick" x="46" y="186.5" text-anchor="end">+0.00%</text><text class="tick" x="46" y="153.6" text-anchor="end">+0.10%</text><text class="tick" x="46" y="120.8" text-anchor="end">+0.20%</text><text class="tick" x="46" y="87.9" text-anchor="end">+0.30%</text><text class="tick" x="46" y="55.0" text-anchor="end">+0.40%</text><text class="tick" x="46" y="22.1" text-anchor="end">+0.50%</text><text class="tick" x="54.0" y="282" text-anchor="middle">0</text><text class="tick" x="149.0" y="282" text-anchor="middle">5</text><text class="tick" x="244.0" y="282" text-anchor="middle">10</text><text class="tick" x="339.0" y="282" text-anchor="middle">15</text><text class="tick" x="434.0" y="282" text-anchor="middle">20</text><text class="tick" x="529.0" y="282" text-anchor="middle">25</text><text class="tick" x="624.0" y="282" text-anchor="middle">30</text>
+  <polygon class="band" points="54.0,166.7 73.0,139.6 92.0,136.6 111.0,140.0 130.0,135.0 149.0,150.3 168.0,150.8 187.0,146.7 206.0,120.0 225.0,123.0 244.0,123.4 263.0,118.5 282.0,102.2 301.0,80.8 320.0,78.1 339.0,80.8 358.0,66.3 377.0,62.3 396.0,66.3 415.0,46.9 434.0,62.7 453.0,70.6 472.0,45.9 491.0,45.9 510.0,67.5 529.0,55.9 548.0,59.1 567.0,63.6 586.0,51.5 605.0,67.8 624.0,58.9 624.0,213.8 605.0,213.8 586.0,215.1 567.0,212.2 548.0,218.1 529.0,226.9 510.0,224.1 491.0,232.1 472.0,221.9 453.0,222.3 434.0,216.5 415.0,223.3 396.0,206.5 377.0,211.1 358.0,212.7 339.0,209.7 320.0,208.3 301.0,220.7 282.0,218.8 263.0,215.3 244.0,207.5 225.0,212.3 206.0,206.2 187.0,208.7 168.0,206.9 149.0,200.7 130.0,207.6 111.0,205.8 92.0,205.8 73.0,200.3 54.0,195.4"/>
+  <polyline class="ln s2" points="54.0,182.5 73.0,181.0 92.0,182.5 111.0,176.5 130.0,182.2 149.0,174.1 168.0,182.5 187.0,182.5 206.0,162.8 225.0,165.0 244.0,170.8 263.0,164.9 282.0,172.2 301.0,166.9 320.0,154.0 339.0,157.0 358.0,155.7 377.0,157.1 396.0,163.6 415.0,145.9 434.0,141.7 453.0,150.8 472.0,149.9 491.0,155.5 510.0,145.9 529.0,144.7 548.0,135.0 567.0,129.6 586.0,134.4 605.0,135.5 624.0,131.4"/>
+  <polyline class="ln s1" points="54.0,169.0 73.0,170.1 92.0,170.9 111.0,177.1 130.0,172.2 149.0,173.1 168.0,176.3 187.0,172.6 206.0,164.7 225.0,166.7 244.0,164.8 263.0,164.5 282.0,159.0 301.0,154.0 320.0,141.5 339.0,139.9 358.0,139.2 377.0,139.4 396.0,142.4 415.0,146.6 434.0,146.0 453.0,144.3 472.0,143.2 491.0,148.7 510.0,143.3 529.0,138.6 548.0,134.5 567.0,134.7 586.0,139.3 605.0,136.7 624.0,136.8"/>
+  <circle class="dot s1f" cx="624.0" cy="136.8" r="4"/>
+  <circle class="dot s2f" cx="624.0" cy="131.4" r="4"/>
+  <polyline class="lead" points="628.0,131.4 636.0,115.4 642.0,115.4"/><polyline class="lead" points="628.0,136.8 636.0,149.8 642.0,149.8"/><text class="dlab" x="645.0" y="118.4">Median +0.16%</text><text class="dlab" x="645.0" y="153.8">Mean +0.14%</text>
+  <text class="axlab" x="339" y="296" text-anchor="middle">Minutes after post</text>
+  <g class="cross" id="c1cross" hidden><line class="chair" y1="18" y2="260"/></g>
+  <rect class="hit" x="44.5" y="18" width="19.0" height="242" data-off="0" data-mean="0.041" data-median="0.000" data-n="73"/><rect class="hit" x="63.5" y="18" width="19.0" height="242" data-off="1" data-mean="0.038" data-median="0.004" data-n="73"/><rect class="hit" x="82.5" y="18" width="19.0" height="242" data-off="2" data-mean="0.035" data-median="0.000" data-n="73"/><rect class="hit" x="101.5" y="18" width="19.0" height="242" data-off="3" data-mean="0.016" data-median="0.018" data-n="73"/><rect class="hit" x="120.5" y="18" width="19.0" height="242" data-off="4" data-mean="0.031" data-median="0.001" data-n="73"/><rect class="hit" x="139.5" y="18" width="19.0" height="242" data-off="5" data-mean="0.029" data-median="0.026" data-n="73"/><rect class="hit" x="158.5" y="18" width="19.0" height="242" data-off="6" data-mean="0.019" data-median="0.000" data-n="73"/><rect class="hit" x="177.5" y="18" width="19.0" height="242" data-off="7" data-mean="0.030" data-median="0.000" data-n="73"/><rect class="hit" x="196.5" y="18" width="19.0" height="242" data-off="8" data-mean="0.054" data-median="0.060" data-n="73"/><rect class="hit" x="215.5" y="18" width="19.0" height="242" data-off="9" data-mean="0.048" data-median="0.053" data-n="73"/><rect class="hit" x="234.5" y="18" width="19.0" height="242" data-off="10" data-mean="0.054" data-median="0.035" data-n="73"/><rect class="hit" x="253.5" y="18" width="19.0" height="242" data-off="11" data-mean="0.055" data-median="0.054" data-n="73"/><rect class="hit" x="272.5" y="18" width="19.0" height="242" data-off="12" data-mean="0.072" data-median="0.031" data-n="73"/><rect class="hit" x="291.5" y="18" width="19.0" height="242" data-off="13" data-mean="0.087" data-median="0.047" data-n="73"/><rect class="hit" x="310.5" y="18" width="19.0" height="242" data-off="14" data-mean="0.125" data-median="0.087" data-n="73"/><rect class="hit" x="329.5" y="18" width="19.0" height="242" data-off="15" data-mean="0.130" data-median="0.078" data-n="73"/><rect class="hit" x="348.5" y="18" width="19.0" height="242" data-off="16" data-mean="0.132" data-median="0.081" data-n="73"/><rect class="hit" x="367.5" y="18" width="19.0" height="242" data-off="17" data-mean="0.131" data-median="0.077" data-n="73"/><rect class="hit" x="386.5" y="18" width="19.0" height="242" data-off="18" data-mean="0.122" data-median="0.058" data-n="73"/><rect class="hit" x="405.5" y="18" width="19.0" height="242" data-off="19" data-mean="0.109" data-median="0.111" data-n="73"/><rect class="hit" x="424.5" y="18" width="19.0" height="242" data-off="20" data-mean="0.111" data-median="0.124" data-n="73"/><rect class="hit" x="443.5" y="18" width="19.0" height="242" data-off="21" data-mean="0.116" data-median="0.096" data-n="73"/><rect class="hit" x="462.5" y="18" width="19.0" height="242" data-off="22" data-mean="0.119" data-median="0.099" data-n="73"/><rect class="hit" x="481.5" y="18" width="19.0" height="242" data-off="23" data-mean="0.103" data-median="0.082" data-n="73"/><rect class="hit" x="500.5" y="18" width="19.0" height="242" data-off="24" data-mean="0.119" data-median="0.111" data-n="73"/><rect class="hit" x="519.5" y="18" width="19.0" height="242" data-off="25" data-mean="0.134" data-median="0.115" data-n="73"/><rect class="hit" x="538.5" y="18" width="19.0" height="242" data-off="26" data-mean="0.146" data-median="0.145" data-n="73"/><rect class="hit" x="557.5" y="18" width="19.0" height="242" data-off="27" data-mean="0.145" data-median="0.161" data-n="73"/><rect class="hit" x="576.5" y="18" width="19.0" height="242" data-off="28" data-mean="0.131" data-median="0.146" data-n="73"/><rect class="hit" x="595.5" y="18" width="19.0" height="242" data-off="29" data-mean="0.139" data-median="0.143" data-n="73"/><rect class="hit" x="614.5" y="18" width="19.0" height="242" data-off="30" data-mean="0.139" data-median="0.155" data-n="73"/>
+</svg></div>
+</div>
+
+<div class="card">
+  <h3>First-minute move — the distribution behind the average</h3>
+  <p class="cap">Each post's move during the minute it was posted, signed in the post's direction.
+  The spread is what the mean hides: only <b>48%</b> of posts moved the right way —
+  a coin flip — and the median is <b>+0.00%</b>, i.e. the typical post moves the stock
+  nothing at all in its first minute. The <b>+0.041%</b> mean is carried by a handful of
+  outliers, not by consistency. Range -0.51% to +1.14%, SD 0.196%. n = 73.</p>
+  <div class="scroll"><svg viewBox="0 0 720 268" role="img" aria-label="Distribution of the first-minute directional move across posts" class="chart" id="c2">
+  <title>First-minute directional move, 73 posts</title>
+  <line class="grid" x1="54" x2="700" y1="228.0" y2="228.0"/><line class="grid" x1="54" x2="700" y1="180.9" y2="180.9"/><line class="grid" x1="54" x2="700" y1="133.7" y2="133.7"/><line class="grid" x1="54" x2="700" y1="86.6" y2="86.6"/><line class="grid" x1="54" x2="700" y1="39.4" y2="39.4"/>
+  <line class="axis" x1="54" x2="54" y1="30" y2="228"/>
+  <line class="axis" x1="54" x2="700" y1="228" y2="228"/>
+  <text class="tick" x="46" y="232.0" text-anchor="end">0</text><text class="tick" x="46" y="184.9" text-anchor="end">10</text><text class="tick" x="46" y="137.7" text-anchor="end">20</text><text class="tick" x="46" y="90.6" text-anchor="end">30</text><text class="tick" x="46" y="43.4" text-anchor="end">40</text><text class="tick" x="54.0" y="250" text-anchor="middle">-1.20%</text><text class="tick" x="215.5" y="250" text-anchor="middle">-0.60%</text><text class="tick" x="377.0" y="250" text-anchor="middle">+0.00%</text><text class="tick" x="538.5" y="250" text-anchor="middle">+0.60%</text><text class="tick" x="700.0" y="250" text-anchor="middle">+1.20%</text>
+  <line class="zero" x1="377.0" x2="377.0" y1="30" y2="228"/>
+  <path class="hbar" d="M239.6,228 L239.6,227.3 Q239.6,223.3 243.6,223.3 L264.3,223.3 Q268.3,223.3 268.3,227.3 L268.3,228 Z" data-lo="-0.51" data-hi="-0.40" data-c="1" tabindex="0"/><path class="hbar" d="M301.1,228 L301.1,227.3 Q301.1,223.3 305.1,223.3 L325.9,223.3 Q329.9,223.3 329.9,227.3 L329.9,228 Z" data-lo="-0.29" data-hi="-0.17" data-c="1" tabindex="0"/><path class="hbar" d="M331.9,228 L331.9,180.1 Q331.9,176.1 335.9,176.1 L356.6,176.1 Q360.6,176.1 360.6,180.1 L360.6,228 Z" data-lo="-0.17" data-hi="-0.06" data-c="11" tabindex="0"/><path class="hbar" d="M362.6,228 L362.6,34.0 Q362.6,30.0 366.6,30.0 L387.4,30.0 Q391.4,30.0 391.4,34.0 L391.4,228 Z" data-lo="-0.06" data-hi="0.06" data-c="42" tabindex="0"/><path class="hbar" d="M393.4,228 L393.4,189.6 Q393.4,185.6 397.4,185.6 L418.1,185.6 Q422.1,185.6 422.1,189.6 L422.1,228 Z" data-lo="0.06" data-hi="0.17" data-c="9" tabindex="0"/><path class="hbar" d="M424.1,228 L424.1,227.3 Q424.1,223.3 428.1,223.3 L448.9,223.3 Q452.9,223.3 452.9,227.3 L452.9,228 Z" data-lo="0.17" data-hi="0.29" data-c="1" tabindex="0"/><path class="hbar" d="M454.9,228 L454.9,208.4 Q454.9,204.4 458.9,204.4 L479.7,204.4 Q483.7,204.4 483.7,208.4 L483.7,228 Z" data-lo="0.29" data-hi="0.40" data-c="5" tabindex="0"/><path class="hbar" d="M485.7,228 L485.7,222.6 Q485.7,218.6 489.7,218.6 L510.4,218.6 Q514.4,218.6 514.4,222.6 L514.4,228 Z" data-lo="0.40" data-hi="0.51" data-c="2" tabindex="0"/><path class="hbar" d="M670.2,228 L670.2,227.3 Q670.2,223.3 674.2,223.3 L695.0,223.3 Q699.0,223.3 699.0,227.3 L699.0,228 Z" data-lo="1.09" data-hi="1.20" data-c="1" tabindex="0"/>
+  <line class="medline" x1="377.0" x2="377.0" y1="30" y2="228"/>
+  <text class="dlab" x="377.0" y="21" text-anchor="middle">Median +0.000% (on the zero line)</text>
+  <text class="axlab" x="377" y="264" text-anchor="middle">First-minute move, signed in the post's direction (%)</text>
+</svg></div>
+</div>
+
+<div class="card">
+  <h3>Speed of capture — how much is already there</h3>
+  <p class="cap">Mean move at each horizon as a share of the mean move at +30 min. <b>This is not a
+  monotonic build-up:</b> the small first-minute blip (29%) partly
+  <i>fades</i> by +5 min (21%) before the move actually accumulates between
+  +5 and +15 min. These are ratios of two very small means (+0.041% over
+  +0.139%), so treat the percentages as a shape, not a precise claim. n = 73.</p>
+  <div class="scroll"><svg viewBox="0 0 720 260" role="img" aria-label="Share of the 30-minute mean move already present at each horizon" class="chart" id="c3">
+  <title>Share of the +30 min mean move present at each horizon</title>
+  <line class="grid" x1="54" x2="700" y1="220.0" y2="220.0"/><line class="grid" x1="54" x2="700" y1="175.8" y2="175.8"/><line class="grid" x1="54" x2="700" y1="131.6" y2="131.6"/><line class="grid" x1="54" x2="700" y1="87.4" y2="87.4"/><line class="grid" x1="54" x2="700" y1="43.2" y2="43.2"/>
+  <line class="axis" x1="54" x2="54" y1="22" y2="220"/>
+  <line class="axis" x1="54" x2="700" y1="220.0" y2="220.0"/>
+  <text class="tick" x="46" y="224.0" text-anchor="end">0%</text><text class="tick" x="46" y="179.8" text-anchor="end">25%</text><text class="tick" x="46" y="135.6" text-anchor="end">50%</text><text class="tick" x="46" y="91.4" text-anchor="end">75%</text><text class="tick" x="46" y="47.2" text-anchor="end">100%</text><text class="tick" x="118.6" y="242" text-anchor="middle">+0 min</text><text class="tick" x="247.8" y="242" text-anchor="middle">+1 min</text><text class="tick" x="377.0" y="242" text-anchor="middle">+5 min</text><text class="tick" x="506.2" y="242" text-anchor="middle">+15 min</text><text class="tick" x="635.4" y="242" text-anchor="middle">+30 min</text><line class="ref" x1="54" x2="700" y1="43.2" y2="43.2"/><text class="reflab" x="58" y="37.2" text-anchor="start">100% = the +30 min mean</text>
+  <path class="cbar" d="M106.6,220.0 L106.6,171.9 Q106.6,167.9 110.6,167.9 L126.6,167.9 Q130.6,167.9 130.6,171.9 L130.6,220.0 Z" data-h="0" data-s="29.489928" data-m="0.041" tabindex="0"/><text class="blab" x="118.6" y="159.9" text-anchor="middle">29%</text><path class="cbar" d="M235.8,220.0 L235.8,176.0 Q235.8,172.0 239.8,172.0 L255.8,172.0 Q259.8,172.0 259.8,176.0 L259.8,220.0 Z" data-h="1" data-s="27.132455" data-m="0.038" tabindex="0"/><text class="blab" x="247.8" y="164.0" text-anchor="middle">27%</text><path class="cbar" d="M365.0,220.0 L365.0,187.6 Q365.0,183.6 369.0,183.6 L385.0,183.6 Q389.0,183.6 389.0,187.6 L389.0,220.0 Z" data-h="5" data-s="20.596143" data-m="0.029" tabindex="0"/><text class="blab" x="377.0" y="175.6" text-anchor="middle">21%</text><path class="cbar" d="M494.2,220.0 L494.2,59.2 Q494.2,55.2 498.2,55.2 L514.2,55.2 Q518.2,55.2 518.2,59.2 L518.2,220.0 Z" data-h="15" data-s="93.217789" data-m="0.130" tabindex="0"/><text class="blab" x="506.2" y="47.2" text-anchor="middle">93%</text><path class="cbar" d="M623.4,220.0 L623.4,47.2 Q623.4,43.2 627.4,43.2 L643.4,43.2 Q647.4,43.2 647.4,47.2 L647.4,220.0 Z" data-h="30" data-s="100.000000" data-m="0.139" tabindex="0"/><text class="blab" x="635.4" y="35.2" text-anchor="middle">100%</text>
+  <text class="axlab" x="377" y="256" text-anchor="middle">Minutes after post</text>
+</svg></div>
+</div>
+
+<details>
+  <summary>Table view — every plotted value, and the ticker mix</summary>
+  <table>
+    <caption class="cap" style="text-align:left;padding:6px 0">Directional move by horizon (n = 73 observations from 60 posts)</caption>
+    <thead><tr><th>Horizon</th><th>Mean move</th><th>Share of +30 mean</th><th>Hit rate</th><th>n</th></tr></thead>
+    <tbody><tr><td>+0 min</td><td>+0.041%</td><td>29%</td><td>48%</td><td>73</td></tr><tr><td>+1 min</td><td>+0.038%</td><td>27%</td><td>53%</td><td>73</td></tr><tr><td>+5 min</td><td>+0.029%</td><td>21%</td><td>52%</td><td>73</td></tr><tr><td>+15 min</td><td>+0.130%</td><td>93%</td><td>60%</td><td>73</td></tr><tr><td>+30 min</td><td>+0.139%</td><td>100%</td><td>70%</td><td>73</td></tr></tbody>
+  </table>
+  <table>
+    <caption class="cap" style="text-align:left;padding:10px 0 6px">Observations per ticker — the concentration limitation</caption>
+    <thead><tr><th>Ticker</th><th>Observations</th></tr></thead>
+    <tbody><tr><td>WBD</td><td>12</td></tr><tr><td>PARA</td><td>11</td></tr><tr><td>GOOGL</td><td>6</td></tr><tr><td>NVDA</td><td>5</td></tr><tr><td>BA</td><td>5</td></tr><tr><td>NYT</td><td>5</td></tr><tr><td>CMCSA</td><td>4</td></tr><tr><td>FOXA</td><td>3</td></tr><tr><td>DIS</td><td>3</td></tr><tr><td>DJT</td><td>3</td></tr><tr><td>META</td><td>2</td></tr><tr><td>LLY</td><td>2</td></tr><tr><td>INTC</td><td>1</td></tr><tr><td>AAPL</td><td>1</td></tr><tr><td>AMZN</td><td>1</td></tr><tr><td>IBM</td><td>1</td></tr><tr><td>JPM</td><td>1</td></tr><tr><td>F</td><td>1</td></tr><tr><td>GS</td><td>1</td></tr><tr><td>MRK</td><td>1</td></tr><tr><td>GM</td><td>1</td></tr><tr><td>AEO</td><td>1</td></tr><tr><td>GE</td><td>1</td></tr><tr><td>TSLA</td><td>1</td></tr></tbody>
+  </table>
+</details>
+
+<p class="note"><b>Method &amp; honest limitations.</b>
+<b>Source:</b> post text/timestamps from the Matt Stiles Trump Truth Social Archive (CC0);
+prices from Polygon.io 1-minute aggregates, regular hours only.
+<b>Sample:</b> 179 of the dataset's praise/attack post–company pairs landed Mon–Fri
+9:30–16:00 ET; 73 could be priced (no data: 102, incomplete window: 4).
+<b>Effective n is smaller than 73.</b> Three separate reasons: (1) the 73 observations come from only
+<b>60 distinct posts</b> — 9 posts name several companies at once (one names 5),
+and those rows react to the same sentence at the same instant; (2) the ticker mix is concentrated —
+12 of 73 are WBD alone; (3) same-day posts on one ticker
+share overlapping windows.
+<b>Measurement floor:</b> 5 observations show a first-minute move of exactly zero — on the
+low-priced names in this sample (WBD and PARA traded near
+$10–13) one tick is already ~0.08%, so "no move" is partly the price grid, not just calm. Those zeros sit
+exactly at the median, which is why the median first-minute move is +0.00%.
+<b>The first-minute window straddles the post:</b> the reference is the previous bar's close (up to ~60s
+<i>before</i> the post) and minute 0 is the post-minute's close (up to ~60s <i>after</i>), so it brackets
+the moment rather than starting exactly at it. This makes the "no reaction" finding conservative, not overstated.
+<b>Past +30 min:</b> a full +60 min window exists for 69 of 73 observations — mean +0.182% (median +0.207%, 61% hit rate), i.e. the drift continues rather than reverting, on an even thinner sample.
+<b>Split:</b> 31 praise / 42 attack — too thin to split the curve
+by sentiment with any confidence, so the headline curve combines them.
+<b>No counterfactual:</b> this measures the move around the post, not the move <i>caused</i> by it —
+there is no market/sector benchmark subtracted, and no control for news arriving at the same moment.
+A hit rate near 50% is what a coin flip looks like; the mean is carried by a few large moves, not by consistency.</p>
+
+<script>
+(function(){
+  var root=document.getElementById('reaction-speed'); if(!root) return;
+  var tip=document.createElement('div'); tip.className='tip'; root.appendChild(tip);
+  function show(x,y,rows){
+    tip.textContent='';
+    rows.forEach(function(r){
+      var d=document.createElement('div'); d.className='r';
+      if(r.color){var k=document.createElement('i'); k.className='key'; k.style.background=r.color; d.appendChild(k);}
+      var b=document.createElement('b'); b.textContent=r.value; d.appendChild(b);
+      var s=document.createElement('span'); s.textContent=r.label; d.appendChild(s);
+      tip.appendChild(d);
+    });
+    tip.style.opacity=1;
+    var w=tip.offsetWidth,h=tip.offsetHeight;
+    tip.style.left=Math.min(window.innerWidth-w-8,Math.max(8,x+14))+'px';
+    tip.style.top=Math.max(8,y-h-12)+'px';
+  }
+  function hide(){tip.style.opacity=0;}
+  var cs=getComputedStyle(root);
+  var C1=cs.getPropertyValue('--series-1'),C2=cs.getPropertyValue('--series-2');
+  // chart 1 crosshair
+  var c1=document.getElementById('c1'), cross=document.getElementById('c1cross');
+  if(c1){
+    c1.querySelectorAll('.hit').forEach(function(h){
+      function on(e){
+        var r=h.getBoundingClientRect(), cx=r.left+r.width/2;
+        var ln=cross.querySelector('.chair');
+        ln.setAttribute('x1',+h.getAttribute('x')+ +h.getAttribute('width')/2);
+        ln.setAttribute('x2',+h.getAttribute('x')+ +h.getAttribute('width')/2);
+        cross.hidden=false;
+        show(cx,r.top+30,[
+          {value:(+h.dataset.mean>=0?'+':'')+(+h.dataset.mean).toFixed(3)+'%',label:'mean',color:C1},
+          {value:(+h.dataset.median>=0?'+':'')+(+h.dataset.median).toFixed(3)+'%',label:'median',color:C2},
+          {value:'+'+h.dataset.off+' min',label:'n = '+h.dataset.n+' posts'}
+        ]);
+      }
+      h.addEventListener('pointermove',on); h.addEventListener('pointerenter',on);
+      h.addEventListener('pointerleave',function(){hide();cross.hidden=true;});
+    });
+  }
+  // chart 2 + 3 per-mark
+  root.querySelectorAll('.hbar').forEach(function(b){
+    function on(){var r=b.getBoundingClientRect();
+      show(r.left+r.width/2,r.top,[
+        {value:b.dataset.c+(b.dataset.c==='1'?' post':' posts'),label:'in this bin'},
+        {value:(+b.dataset.lo).toFixed(2)+'% to '+(+b.dataset.hi).toFixed(2)+'%',label:'first-minute move',color:C1}
+      ]);}
+    b.addEventListener('pointerenter',on); b.addEventListener('focus',on);
+    b.addEventListener('pointerleave',hide); b.addEventListener('blur',hide);
+  });
+  root.querySelectorAll('.cbar').forEach(function(b){
+    function on(){var r=b.getBoundingClientRect();
+      show(r.left+r.width/2,r.top,[
+        {value:(+b.dataset.s).toFixed(0)+'%',label:'of the +30 min mean',color:C1},
+        {value:(+b.dataset.m>=0?'+':'')+(+b.dataset.m).toFixed(3)+'%',label:'mean move at +'+b.dataset.h+' min'}
+      ]);}
+    b.addEventListener('pointerenter',on); b.addEventListener('focus',on);
+    b.addEventListener('pointerleave',hide); b.addEventListener('blur',hide);
+  });
+})();
+</script>
+</section>
 
   <section>
     <div class="limits">
