@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Does buying stocks Trump praises on Truth Social work?</title>
+<style>
+  :root{
+    --bg:#faf9f7; --surface:#ffffff; --ink:#1a1a1a; --muted:#6b7280; --line:#e6e4e0;
+    --accent:#334155; --gain:#1a7f5a; --loss:#c0392b; --gainbg:#e7f3ee; --lossbg:#fbeae8;
+    --shadow:0 1px 3px rgba(0,0,0,.06),0 1px 2px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#0f1216;--surface:#171b21;--ink:#f2f4f7;--muted:#9aa4b2;--line:#252b33;
+      --accent:#cbd5e1;--gain:#3ecf8e;--loss:#f0685f;--gainbg:#13291f;--lossbg:#2a1613;
+      --shadow:0 1px 3px rgba(0,0,0,.4);}
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0}
+  body{background:var(--bg);color:var(--ink);
+    font:16px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;}
+  .wrap{max-width:820px;margin:0 auto;padding:40px 20px 80px}
+  header .kicker{color:var(--muted);font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+  h1{font-size:30px;line-height:1.2;margin:8px 0 10px;letter-spacing:-.02em}
+  .sub{color:var(--muted);font-size:16px;margin-bottom:6px}
+  .verdict{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--loss);
+    border-radius:12px;padding:18px 20px;margin:26px 0;box-shadow:var(--shadow)}
+  .verdict b{color:var(--loss)}
+  h2{font-size:20px;margin:44px 0 6px;letter-spacing:-.01em}
+  .note{color:var(--muted);font-size:14px;margin:0 0 18px}
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin:18px 0}
+  .tile{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 16px 14px;box-shadow:var(--shadow)}
+  .tile .lab{color:var(--muted);font-size:12.5px;font-weight:600;letter-spacing:.02em}
+  .tile .big{font-size:27px;font-weight:700;letter-spacing:-.02em;margin-top:4px;font-variant-numeric:tabular-nums}
+  .tile .big.neg{color:var(--loss)} .tile .big.pos{color:var(--gain)}
+  .tile .cap{color:var(--muted);font-size:12px;margin-top:2px}
+  .chart{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:18px 8px 8px 8px;box-shadow:var(--shadow);overflow-x:auto}
+  .row{display:flex;align-items:center;gap:10px;padding:3px 12px;font-size:13.5px}
+  .row .tk{width:132px;flex:0 0 132px;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .row .tk small{color:var(--muted);font-weight:400}
+  .barwrap{flex:1;position:relative;height:22px}
+  .zero{position:absolute;top:-3px;bottom:-3px;width:1px;background:var(--line)}
+  .bar{position:absolute;top:3px;height:16px;border-radius:4px}
+  .bar.g{background:var(--gain)} .bar.l{background:var(--loss)}
+  .val{width:58px;flex:0 0 58px;text-align:right;font-variant-numeric:tabular-nums;font-weight:600}
+  .val.pos{color:var(--gain)} .val.neg{color:var(--loss)}
+  .legend{display:flex;gap:16px;align-items:center;color:var(--muted);font-size:12.5px;padding:6px 12px 2px}
+  .sw{display:inline-block;width:11px;height:11px;border-radius:3px;vertical-align:-1px;margin-right:5px}
+  .tier{font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:1px 7px;margin-left:6px}
+  table{width:100%;border-collapse:collapse;font-size:13.5px;margin-top:8px}
+  th,td{text-align:right;padding:7px 8px;border-bottom:1px solid var(--line);font-variant-numeric:tabular-nums}
+  th:first-child,td:first-child{text-align:left}
+  th{color:var(--muted);font-weight:600;font-size:12px;text-transform:uppercase;letter-spacing:.03em}
+  td.pos{color:var(--gain)} td.neg{color:var(--loss)}
+  .speed{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:20px;box-shadow:var(--shadow);margin-top:8px}
+  .speed .metric{font-size:15px;margin:10px 0;padding-left:14px;border-left:3px solid var(--accent)}
+  .speed .metric b{font-size:17px}
+  ul.src{color:var(--muted);font-size:13px;line-height:1.7;padding-left:18px}
+  a{color:inherit}
+  footer{color:var(--muted);font-size:12.5px;margin-top:50px;border-top:1px solid var(--line);padding-top:16px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="kicker">Real-data analysis &middot; July 2026</div>
+  <h1>Does buying a stock the moment Trump praises it on Truth Social actually work?</h1>
+  <p class="sub">Every documented Truth&nbsp;Social stock-praise post, entered at a price you could really buy after the post, using real daily closes.</p>
+</header>
+
+<div class="verdict">
+  <b>Bottom line: no.</b> On the 7 clean, named-company praise posts, buying the post-day close returned an average of
+  <b>&minus;1.77% the next day</b> and <b>&minus;1.23% over a week</b> &mdash; a <b>29% next-day win rate</b> (only 2 of 7 went up).
+  The strategy <b>lost money</b>. And the initial pop is gone in <b>milliseconds</b> anyway (see below), so retail never catches it.
+</div>
+
+<h2>The headline numbers</h2>
+<p class="note">"Clean core" = the 7 posts where Trump named a specific public company on Truth Social. "Generous set" folds in 4 weaker cases (an F-22 jet post that didn't name the makers; a 2026 Palantir post).</p>
+<div class="tiles">
+  <div class="tile"><div class="lab">Next-day return (clean 7)</div><div class="big neg">&minus;1.77%</div><div class="cap">win rate 29% &middot; 2 of 7 up</div></div>
+  <div class="tile"><div class="lab">1-week return (clean 7)</div><div class="big neg">&minus;1.23%</div><div class="cap">win rate 43%</div></div>
+  <div class="tile"><div class="lab">Next-day (generous 11)</div><div class="big neg">&minus;0.21%</div><div class="cap">win rate 55%</div></div>
+  <div class="tile"><div class="lab">1-week (generous 11)</div><div class="big pos">+1.08%</div><div class="cap">carried by 1 winner (PLTR +14%)</div></div>
+</div>
+
+<h2>Every post, next-day move</h2>
+<div class="legend"><span><span class="sw" style="background:var(--gain)"></span>gain</span><span><span class="sw" style="background:var(--loss)"></span>loss</span><span>bar &amp; label both carry the sign</span></div>
+<div class="chart" id="chart"></div>
+
+<h2>The full table</h2>
+<div class="chart" style="padding:12px">
+<table id="tbl"><thead><tr><th>Post date</th><th>Ticker</th><th>Company</th><th>+1 day</th><th>+1 week</th></tr></thead><tbody></tbody></table>
+</div>
+<p class="note">US Steel (X) had a real Jan&nbsp;6 2025 praise post but was delisted after the Nippon Steel deal &mdash; no clean price, so it's dropped, not faked. Returns are raw price moves (not market-adjusted); the March&ndash;April 2025 core dates sit inside the tariff-driven selloff.</p>
+
+<h2>Why you can't catch the pop: it happens in milliseconds</h2>
+<div class="speed">
+  <div class="metric"><b>Milliseconds.</b> Trump Media's new <i>Truth&nbsp;API</i> (launching Aug&nbsp;1, 2026) delivers his posts to banks &amp; trading firms <b>"in milliseconds,"</b> built explicitly for algo firms "most impacted by the cost of a delay."</div>
+  <div class="metric"><b>Seconds = the whole edge.</b> Per the reporting, getting the post "even a few seconds faster" can mean "potentially massive profits" for algorithmic traders. The entire paid product only exists because speed <i>is</i> the trade.</div>
+  <div class="metric"><b>You're last in line.</b> A push notification + reading it + tapping buy is tens of seconds to minutes. By then the millisecond algos have already traded and the initial spike is over &mdash; so retail is too slow for the up-move and left holding into the fade. That's <i>why</i> the next-day numbers above are flat-to-negative.</div>
+</div>
+
+<h2>Honesty &amp; method</h2>
+<ul class="src">
+  <li><b>Sample is small &amp; complete, not a sample of a bigger set.</b> CNN's widely-cited "44 purchases / 21 companies" is an <i>un-published AI-scan aggregate</i> &mdash; CNN never printed the 21-company list, and only ever individually named ~12 (7 of them clean Truth-Social stock praise). So n=7 is the complete <i>documented</i> set, gathered by scraping the full CNN article + its embedded graphics + the Truth Social post archive.</li>
+  <li><b>Entry timing is honest.</b> Each post's exact timestamp was pinned; post during market hours &rarr; same-day close; after 4pm ET / weekend &rarr; next trading day (the Aug 24 F-22 post was a Sunday &rarr; Aug 25 entry). Never a pre-post price.</li>
+  <li><b>Excluded:</b> Dell (Trump praised it at a rally + White House event, not on Truth Social); the "GREAT TIME TO BUY!!!" post (named no company).</li>
+</ul>
+<h2>Sources</h2>
+<ul class="src">
+  <li>CNN &mdash; "Trump promoted companies on Truth Social days after buying their stocks" (Jul 16, 2026)</li>
+  <li>CNBC / CNN Business / Yahoo Finance &mdash; Truth Social's "Truth API" millisecond data feed for Wall Street (Jul 16, 2026)</li>
+  <li>Unusual Whales &mdash; Trump portfolio tracking; Yahoo Finance &mdash; daily closing prices; trumpstruth.org &mdash; post timestamps</li>
+</ul>
+
+<footer>
+  Built by PianoBot for Sahmoud &middot; real closing prices, no simulated data &middot; not investment advice. Reaction-speed claims from public reporting; returns computed from Yahoo Finance daily closes.
+</footer>
+</div>
+
+<script>
+var DATA=[
+ {d:"2025-03-11",tk:"TSLA",co:"Tesla (Musk video)",d1:7.59,w1:-2.29,tier:"core"},
+ {d:"2025-03-12",tk:"AAPL",co:"Apple",d1:-3.36,w1:-0.80,tier:"core"},
+ {d:"2025-03-12",tk:"GE",co:"GE Aerospace",d1:-1.32,w1:5.42,tier:"core"},
+ {d:"2025-03-12",tk:"LLY",co:"Eli Lilly",d1:-2.46,w1:1.84,tier:"core"},
+ {d:"2025-04-15",tk:"NVDA",co:"Nvidia",d1:-6.87,w1:-8.46,tier:"core"},
+ {d:"2025-07-24",tk:"TSLA",co:"Tesla (THRIVE)",d1:3.52,w1:0.97,tier:"core"},
+ {d:"2025-08-04",tk:"AEO",co:"American Eagle",d1:-9.49,w1:-5.27,tier:"core"},
+ {d:"2025-08-25",tk:"RTX",co:"RTX (F-22, unnamed)",d1:2.11,w1:1.11,tier:"border"},
+ {d:"2025-08-25",tk:"BA",co:"Boeing (F-22, unnamed)",d1:3.51,w1:4.63,tier:"border"},
+ {d:"2025-08-25",tk:"NOC",co:"Northrop (F-22, unnamed)",d1:1.07,w1:0.44,tier:"border"},
+ {d:"2026-04-10",tk:"PLTR",co:"Palantir (2026)",d1:3.37,w1:14.31,tier:"border"}
+];
+var max=Math.max.apply(null,DATA.map(function(r){return Math.abs(r.d1)})); // scale
+var mid=50; // % center position
+var chart=document.getElementById("chart");
+DATA.slice().sort(function(a,b){return a.d1-b.d1}).forEach(function(r){
+  var row=document.createElement("div");row.className="row";
+  var w=Math.abs(r.d1)/max*48; // half-width max 48%
+  var pos=r.d1>=0;
+  row.innerHTML='<div class="tk">'+r.tk+' <small>'+(r.tier==="border"?"&middot; soft":"")+'</small></div>'+
+    '<div class="barwrap"><div class="zero" style="left:'+mid+'%"></div>'+
+    '<div class="bar '+(pos?"g":"l")+'" style="'+(pos?("left:"+mid+"%;"):("right:"+(100-mid)+"%;"))+'width:'+w+'%"></div></div>'+
+    '<div class="val '+(pos?"pos":"neg")+'">'+(pos?"+":"")+r.d1.toFixed(2)+'%</div>';
+  chart.appendChild(row);
+});
+var tb=document.querySelector("#tbl tbody");
+DATA.forEach(function(r){
+  var tr=document.createElement("tr");
+  function c(v){return '<td class="'+(v>=0?"pos":"neg")+'">'+(v>=0?"+":"")+v.toFixed(2)+'%</td>'}
+  tr.innerHTML='<td>'+r.d+'</td><td>'+r.tk+'</td><td style="text-align:left">'+r.co+'</td>'+c(r.d1)+c(r.w1);
+  tb.appendChild(tr);
+});
+</script>
+</body>
+</html>
