@@ -275,6 +275,76 @@ last price before the post — does it move <i>at all</i>, in either direction.<
 </details>
 </section>
 
+<section class="speed viz-root" id="methodology">
+<h2>Full methodology — how these numbers were produced</h2>
+<p class="sub">Every figure on this page traces to a file in the
+<a href="https://github.com/bubakazouba/trump-truth-trades">public repo</a>. Nothing is estimated or
+hand-tuned. The pipeline below turns 29,469 raw posts into 819 minute-level market reactions.</p>
+
+<div class="card">
+  <h3>1 · Posts</h3>
+  <p class="cap">Source: the <b>Matt Stiles Trump Truth Social Archive</b> (CC0). 29,469 total posts,
+  of which <b>23,992</b> carry ≥15 characters of real text after stripping HTML and media-only
+  reposts. Span: 2022-02-14 → 2026-05-02.</p>
+</div>
+
+<div class="card">
+  <h3>2 · Company detection — exhaustive LLM sweep (no keyword shortcuts)</h3>
+  <p class="cap">All 23,992 content posts were split into 120 chunks and read by an LLM (Claude), one
+  agent per chunk, with 100% coverage and zero errors. For every post it extracted each
+  publicly-traded company referenced by <b>name, brand, executive, product/subsidiary, or ticker</b>
+  (e.g. "iPhone"→Apple, "CNN"→Warner Bros Discovery, "Elon Musk"→Tesla, "$DJT"→Trump Media), with a
+  US-listed ticker and the verbatim triggering phrase. Result: <b>3,622 mentions across 119
+  tickers</b> — vs the 67-company keyword map the original analysis used. → <code>data/sweep_*.json</code></p>
+</div>
+
+<div class="card">
+  <h3>3 · In-hours filter &amp; stance</h3>
+  <p class="cap">Pairs were kept only if the post landed <b>Mon–Fri, 9:30–16:00 ET</b> (when the
+  named stock is actually trading): <b>1,055 in-market-hours pairs</b>. A second LLM pass labeled each
+  pair's stance toward that company — PRAISE / ATTACK / NEUTRAL, plus a "substantive" flag and a
+  verbatim quote. Split: 243 attack, 130 praise, <b>682 neutral</b> (mostly Trump citing an outlet as
+  a news source, not commenting on the company). → <code>data/sweep_inhours_labeled.json</code></p>
+</div>
+
+<div class="card">
+  <h3>4 · Prices — 1-minute bars, with a validated free backfill</h3>
+  <p class="cap">Intraday prices are 1-minute OHLCV bars. <b>Polygon.io</b> is used where its free tier
+  reaches (~2 years); older ticker-days — which Polygon's free tier refuses — are backfilled from
+  <b>Twelve Data</b>, written in Polygon's exact JSON schema so the analysis is source-agnostic.
+  Twelve Data was validated against Polygon on an overlapping day: <b>390/390 regular-hours bars
+  matched, mean close difference 0.0005%</b>. 697 ticker-day bar files total (was 70).
+  → <code>scripts/fetch_bars_td.py</code>, <code>data/polygon_bars/</code></p>
+</div>
+
+<div class="card">
+  <h3>5 · Reaction measurement</h3>
+  <p class="cap">For each in-hours pair with bars on both sides of the post, the
+  <b>reference</b> is the close of the last regular-hours bar strictly <i>before</i> the post minute;
+  the <b>anchor</b> is the post-minute bar (or next available). The cumulative % move is tracked from
+  0 to 60 minutes after. The headline measure is <b>absolute</b> move — |price − reference| / reference
+  — i.e. does the stock move <i>at all</i>, either direction, needing no stance. Each is compared to a
+  <b>same-day baseline</b>: the same stock's absolute 30-min move from a mid-session minute, so the
+  post-minute move is judged against that day's normal intraday noise. <b>819 of 1,055 pairs</b> had
+  full price windows and were measured (236 dropped: no bars, or incomplete window).
+  → <code>scripts/speed_analyze_full.py</code>, <code>data/speed_full_results.json</code></p>
+</div>
+
+<div class="card">
+  <h3>Honest limitations</h3>
+  <p class="cap">
+  <b>Correlation, not causation</b> — this measures the move <i>around</i> a post, not the move
+  <i>caused</i> by it; returns are raw (no market/sector benchmark subtracted), and other news can
+  arrive at the same moment. <b>Classification is model judgment</b> — company and stance labels are
+  the LLM's calls (verbatim quotes are provided so they can be spot-checked). <b>Concentration</b> —
+  a few media tickers (FOXA, NWSA, WBD, RUM, NMAX) dominate the counts, since Trump names news outlets
+  far more than other companies. <b>Measurement floor</b> — on low-priced names one tick can be
+  ~0.08%, so some "no move" readings are the price grid, not perfect calm (this makes the
+  no-reaction finding conservative, not overstated). <b>Non-independence</b> — a post naming several
+  companies produces several rows that move on the same sentence at the same instant.</p>
+</div>
+</section>
+
 <section class="speed viz-root" id="reaction-speed">
 <style>
 .speed {
