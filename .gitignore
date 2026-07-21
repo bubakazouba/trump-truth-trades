@@ -2,3 +2,6 @@ polygon_key.txt
 *_key.txt
 *.key
 .env
+
+__pycache__/
+*.pyc

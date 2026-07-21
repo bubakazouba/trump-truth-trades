@@ -11,6 +11,34 @@ per-company stance classifications (with verbatim quotes), the raw minute-level 
 and every analysis script — so the dashboard's numbers can be independently audited and
 re-run. Nothing on the dashboard is fabricated or estimated; every figure traces to a file here.
 
+## Exhaustive company sweep + expanded reaction-speed analysis
+
+The original analysis matched companies with a curated 67-entry keyword map and priced intraday
+moves on Polygon's free tier, which only reaches back ~2 years — so only 73 of 179 in-hours pairs
+could be measured. Two additions close both gaps:
+
+- **Full LLM company sweep** — an LLM pass over **all 23,992 content posts** (no keyword shortcuts)
+  detects every publicly-traded company referenced by name, brand, executive, or ticker. Result:
+  3,622 mentions across 119 tickers; **1,055 in-market-hours post–company pairs** (vs 179). See
+  `data/sweep_*.json`. Stance for the in-hours pairs is a second LLM pass
+  (`data/sweep_inhours_labeled.json`).
+- **Twelve Data intraday backfill** — historical 1-minute bars that Polygon's free tier refuses are
+  fetched from [Twelve Data](https://twelvedata.com) and written in Polygon's exact JSON schema, so
+  the analysis needs no changes. Validated against Polygon: 390/390 regular-hours bars match, mean
+  close difference 0.0005%. Scripts: `scripts/fetch_bars_td.py` (arbitrary ticker-days),
+  `scripts/speed_fetch_td.py` (backfill the original gap). Key in `scripts/twelvedata_key.txt`
+  (git-ignored).
+
+`scripts/speed_analyze_full.py` measures the **absolute** move of each named stock around the post
+(does it move *at all*, vs a same-day noise baseline) → `data/speed_full_results.json`, rendered by
+`scripts/build_full_section.py` into the "Does naming a company move it?" section.
+
+**Finding:** across **819** measured in-hours pairs, the median first-minute absolute move is
+**0.035%** (95% of posts move <0.25%), and the 30-minute move (**0.20%**) is essentially identical to
+the same stock's move in a random same-day window (**0.20%**, ratio **1.01×**). Naming a company moves
+its stock no more than noise; the rare big moves are genuine news events (a corporate threat, the
+Musk feud, Trump posting about his own company DJT).
+
 ## Data sources
 
 - **Posts:** Donald Trump's Truth Social posts (`@realDonaldTrump`).
