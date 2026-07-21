@@ -1,0 +1,4790 @@
+[
+ {
+  "ticker": "AAPL",
+  "date": "2023-01-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AAPL",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AAPL",
+  "date": "2025-03-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "ABBV",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "ABT",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMGN",
+  "date": "2024-12-25",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2022-10-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2022-11-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2022-12-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2022-12-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-01-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-04-24",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-04-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-06-28",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-06-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-07-25",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-09-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-11-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2024-09-24",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2025-02-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2025-09-08",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2025-09-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "BA",
+  "date": "2025-04-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "BLK",
+  "date": "2024-07-23",
+  "status": "ok",
+  "bars": 287,
+  "error": null
+ },
+ {
+  "ticker": "BUD",
+  "date": "2025-08-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "BZFD",
+  "date": "2023-10-24",
+  "status": "ok",
+  "bars": 63,
+  "error": null
+ },
+ {
+  "ticker": "BZFD",
+  "date": "2024-04-12",
+  "status": "ok",
+  "bars": 196,
+  "error": null
+ },
+ {
+  "ticker": "CBRL",
+  "date": "2025-08-26",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "CHTR",
+  "date": "2025-05-14",
+  "status": "ok",
+  "bars": 357,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2022-08-03",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2022-10-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-02-13",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-02-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-03-02",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-06-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-08-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-09-27",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-11-02",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-11-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-11-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-12-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-01-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-01-19",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-02-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-02-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-05-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-06-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-10-28",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-12-18",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-02-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-05-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-05-30",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-07-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-08-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "CRM",
+  "date": "2025-10-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DB",
+  "date": "2023-10-12",
+  "status": "ok",
+  "bars": 343,
+  "error": null
+ },
+ {
+  "ticker": "DB",
+  "date": "2023-11-28",
+  "status": "ok",
+  "bars": 330,
+  "error": null
+ },
+ {
+  "ticker": "DB",
+  "date": "2023-11-29",
+  "status": "ok",
+  "bars": 355,
+  "error": null
+ },
+ {
+  "ticker": "DB",
+  "date": "2023-11-30",
+  "status": "ok",
+  "bars": 368,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2022-06-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-04-21",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-05-19",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-05-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-05-31",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-09-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-11-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-11-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-11-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-12-25",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-02-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-04-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-05-15",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-06-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-07-24",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-08-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-08-27",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-09-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-10-08",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2025-06-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2025-07-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2025-09-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-19",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-08-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-08-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-09-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-09-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-09-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-09-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-09-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-14",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-01-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-09",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-27",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-07-03",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-08-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-10-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-11-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-11-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-12-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-01-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-01-19",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-01-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-01-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-04-12",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-04-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-05-02",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-08-08",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-09-18",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-09-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-09-27",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-10-29",
+  "status": "ok",
+  "bars": 373,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-11-08",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "DWAC",
+  "date": "2023-09-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation:"
+ },
+ {
+  "ticker": "F",
+  "date": "2024-10-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FMCC",
+  "date": "2025-07-24",
+  "status": "ok",
+  "bars": 159,
+  "error": null
+ },
+ {
+  "ticker": "FNMA",
+  "date": "2025-07-24",
+  "status": "ok",
+  "bars": 251,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-08-03",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-08-17",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-08-19",
+  "status": "ok",
+  "bars": 344,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-08-23",
+  "status": "ok",
+  "bars": 377,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-08-24",
+  "status": "ok",
+  "bars": 362,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-08-30",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-01",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-07",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-09",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-12",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-15",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-23",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-29",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-09-30",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-10-04",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-10-05",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-10-06",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-10-07",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-10-10",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-11-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-11-17",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-11-21",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-12-12",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-12-13",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-12-19",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-01-17",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-01-18",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-02-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-02-21",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-02-27",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-02-28",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-03-01",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-03-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-03-30",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-04-04",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-04-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-18",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-22",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-23",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-24",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-31",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-06-02",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-06-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-06-19",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-06-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-06-26",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-07-03",
+  "status": "ok",
+  "bars": 218,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-07-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-07-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-07-21",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-07-25",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-01",
+  "status": "ok",
+  "bars": 381,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-03",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-16",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-17",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-21",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-29",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-30",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-08-31",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-09-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-09-06",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-09-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-09-27",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-10-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-10-17",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-10-23",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-11-02",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-11-15",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-11-21",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-11-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-11-30",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-12-01",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-12-08",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-12-18",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-12-19",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-12-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-12-26",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-01-02",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-01-12",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-01-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-02-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-02-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-02-20",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-02-21",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-03-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-03-19",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-03-22",
+  "status": "ok",
+  "bars": 381,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-04-03",
+  "status": "ok",
+  "bars": 381,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-04-05",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-04-12",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-04-15",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-04-25",
+  "status": "ok",
+  "bars": 375,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-05-03",
+  "status": "ok",
+  "bars": 376,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-05-10",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-05-15",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-05-29",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-06-18",
+  "status": "ok",
+  "bars": 373,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-06-19",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-06-27",
+  "status": "ok",
+  "bars": 369,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-07-09",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-07-25",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-07-26",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-07-29",
+  "status": "ok",
+  "bars": 375,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-07-30",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-02",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-08",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-27",
+  "status": "ok",
+  "bars": 375,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-28",
+  "status": "ok",
+  "bars": 347,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-29",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-08-30",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-09-03",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-09-10",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-09-17",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-09-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-10-07",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-10-08",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-10-09",
+  "status": "ok",
+  "bars": 368,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-10-17",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-10-28",
+  "status": "ok",
+  "bars": 358,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-04",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-11",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-17",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-18",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-19",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-25",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-26",
+  "status": "ok",
+  "bars": 356,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-12-27",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-01-07",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-01-13",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-01-21",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-01-24",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-02-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-02-14",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-02-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-03-03",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-03-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-03-13",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-03-19",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-04-24",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-04-25",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-05-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-05-13",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-06-24",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-10",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-11",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-16",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-24",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-30",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-08-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-08-13",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-08-14",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-08-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-09-04",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-09-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "FWONK",
+  "date": "2022-05-18",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "GCI",
+  "date": "2024-02-20",
+  "status": "ok",
+  "bars": 320,
+  "error": null
+ },
+ {
+  "ticker": "GCI",
+  "date": "2025-08-07",
+  "status": "ok",
+  "bars": 329,
+  "error": null
+ },
+ {
+  "ticker": "GIII",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 277,
+  "error": null
+ },
+ {
+  "ticker": "GM",
+  "date": "2024-10-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2022-09-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2022-10-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2022-10-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2022-12-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2023-01-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2023-01-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2023-07-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2023-11-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-01-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-07-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-08-08",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-08-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2025-02-24",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2025-02-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2025-03-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "HD",
+  "date": "2024-11-05",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "HYMTF",
+  "date": "2025-05-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"**symbol** or **figi** parameter is missing or invalid. Please provide a valid symbol according to API documentation:"
+ },
+ {
+  "ticker": "IBM",
+  "date": "2025-01-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "JNJ",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "JPM",
+  "date": "2024-07-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "KVUE",
+  "date": "2025-09-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "LMT",
+  "date": "2025-09-19",
+  "status": "ok",
+  "bars": 371,
+  "error": null
+ },
+ {
+  "ticker": "MCD",
+  "date": "2023-03-13",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "MCD",
+  "date": "2024-09-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "MCD",
+  "date": "2024-09-23",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "MCD",
+  "date": "2024-09-26",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "MCD",
+  "date": "2024-10-04",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "MCD",
+  "date": "2024-12-31",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "META",
+  "date": "2023-01-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-01-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-01-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "META",
+  "date": "2024-03-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "META",
+  "date": "2024-04-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "META",
+  "date": "2024-07-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "MSFT",
+  "date": "2023-01-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "MSFT",
+  "date": "2024-01-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "MSFT",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-06-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-06-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-09-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-09-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-09-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-10-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-10-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2022-11-14",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-01-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-01-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-03-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-03-27",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-04-27",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-05-16",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-05-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-06-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-06-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-07-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-08-09",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-08-11",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-10-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-11-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-11-15",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-11-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-12-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-12-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2023-12-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-01-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-02-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-03-12",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-03-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-03-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-04-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-05-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-05-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-05-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-06-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-06-28",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-07-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-08-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-08-21",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-08-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-08-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-08-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-09-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-09-12",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-09-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-09-25",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-09",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-11",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-21",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-10-31",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-11-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-11-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-12-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-12-25",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2024-12-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2025-02-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2025-03-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2025-07-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2025-07-25",
+  "status": "ok",
+  "bars": 259,
+  "error": null
+ },
+ {
+  "ticker": "NMAX",
+  "date": "2025-08-11",
+  "status": "ok",
+  "bars": 346,
+  "error": null
+ },
+ {
+  "ticker": "NPSCY",
+  "date": "2025-05-23",
+  "status": "ok",
+  "bars": 33,
+  "error": null
+ },
+ {
+  "ticker": "NUE",
+  "date": "2024-04-15",
+  "status": "ok",
+  "bars": 304,
+  "error": null
+ },
+ {
+  "ticker": "NVS",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-05-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-05-23",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-07-26",
+  "status": "ok",
+  "bars": 379,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-08-17",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-08-19",
+  "status": "ok",
+  "bars": 338,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-09-06",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-09-12",
+  "status": "ok",
+  "bars": 371,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-09-22",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-09-23",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-09-29",
+  "status": "ok",
+  "bars": 374,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-11-29",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-12-12",
+  "status": "ok",
+  "bars": 364,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-12-15",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2022-12-22",
+  "status": "ok",
+  "bars": 368,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-01-18",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-01-19",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-02-23",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-03-28",
+  "status": "ok",
+  "bars": 376,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-04-14",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-05-09",
+  "status": "ok",
+  "bars": 381,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-05-15",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-05-16",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-05-24",
+  "status": "ok",
+  "bars": 368,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-05-30",
+  "status": "ok",
+  "bars": 373,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-06-02",
+  "status": "ok",
+  "bars": 384,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-06-29",
+  "status": "ok",
+  "bars": 356,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-07-03",
+  "status": "ok",
+  "bars": 209,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-09-11",
+  "status": "ok",
+  "bars": 373,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-09-29",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-10-16",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-10-31",
+  "status": "ok",
+  "bars": 375,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-11-02",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-11-14",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2023-11-15",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-01-05",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-01-26",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-03-12",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-03-14",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-03-15",
+  "status": "ok",
+  "bars": 355,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-03-19",
+  "status": "ok",
+  "bars": 364,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-04-05",
+  "status": "ok",
+  "bars": 373,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-04-15",
+  "status": "ok",
+  "bars": 381,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-05-29",
+  "status": "ok",
+  "bars": 358,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-06-04",
+  "status": "ok",
+  "bars": 353,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-06-17",
+  "status": "ok",
+  "bars": 345,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-06-18",
+  "status": "ok",
+  "bars": 333,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-06-19",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-07-05",
+  "status": "ok",
+  "bars": 353,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-07-08",
+  "status": "ok",
+  "bars": 349,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-08-08",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-09-09",
+  "status": "ok",
+  "bars": 368,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-09-10",
+  "status": "ok",
+  "bars": 372,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-10-11",
+  "status": "ok",
+  "bars": 354,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-10-24",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-10-25",
+  "status": "ok",
+  "bars": 366,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-11-01",
+  "status": "ok",
+  "bars": 359,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-04",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-10",
+  "status": "ok",
+  "bars": 379,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-16",
+  "status": "ok",
+  "bars": 366,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-17",
+  "status": "ok",
+  "bars": 366,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-18",
+  "status": "ok",
+  "bars": 377,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-25",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2024-12-30",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-01-07",
+  "status": "ok",
+  "bars": 368,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-02-14",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-02-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-03-10",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-04-23",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-04-24",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-05-09",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-05-12",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-06-24",
+  "status": "ok",
+  "bars": 386,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-07-22",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-08-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-08-11",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-08-18",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-09-04",
+  "status": "ok",
+  "bars": 379,
+  "error": null
+ },
+ {
+  "ticker": "NWSA",
+  "date": "2025-09-16",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "NXST",
+  "date": "2023-08-16",
+  "status": "ok",
+  "bars": 198,
+  "error": null
+ },
+ {
+  "ticker": "NXST",
+  "date": "2023-08-21",
+  "status": "ok",
+  "bars": 213,
+  "error": null
+ },
+ {
+  "ticker": "NXST",
+  "date": "2024-01-12",
+  "status": "ok",
+  "bars": 253,
+  "error": null
+ },
+ {
+  "ticker": "NXST",
+  "date": "2024-02-07",
+  "status": "ok",
+  "bars": 322,
+  "error": null
+ },
+ {
+  "ticker": "NXST",
+  "date": "2024-08-08",
+  "status": "ok",
+  "bars": 228,
+  "error": null
+ },
+ {
+  "ticker": "NXST",
+  "date": "2025-09-04",
+  "status": "ok",
+  "bars": 170,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-08-09",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-08-17",
+  "status": "ok",
+  "bars": 328,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-09-21",
+  "status": "ok",
+  "bars": 346,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-09-23",
+  "status": "ok",
+  "bars": 355,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-10-04",
+  "status": "ok",
+  "bars": 314,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-10-12",
+  "status": "ok",
+  "bars": 347,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-10-17",
+  "status": "ok",
+  "bars": 325,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-02-06",
+  "status": "ok",
+  "bars": 367,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-02-28",
+  "status": "ok",
+  "bars": 318,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-03-22",
+  "status": "ok",
+  "bars": 326,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-03-24",
+  "status": "ok",
+  "bars": 383,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-07-31",
+  "status": "ok",
+  "bars": 355,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-08-04",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-08-07",
+  "status": "ok",
+  "bars": 372,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-10-24",
+  "status": "ok",
+  "bars": 353,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-11-13",
+  "status": "ok",
+  "bars": 365,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-01-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 361,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-03-19",
+  "status": "ok",
+  "bars": 342,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-03-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-07-26",
+  "status": "ok",
+  "bars": 336,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-08-13",
+  "status": "ok",
+  "bars": 325,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-09-09",
+  "status": "ok",
+  "bars": 345,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-09-19",
+  "status": "ok",
+  "bars": 336,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-09-26",
+  "status": "ok",
+  "bars": 361,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-03-28",
+  "status": "ok",
+  "bars": 374,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-08-13",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2022-09-12",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2022-11-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2023-11-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2023-12-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-05-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-06-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-06-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "PZZA",
+  "date": "2025-03-10",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "RHHBY",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 200,
+  "error": null
+ },
+ {
+  "ticker": "ROKU",
+  "date": "2024-12-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-06-17",
+  "status": "ok",
+  "bars": 5,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-07-22",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-07-26",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-09-06",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-09-13",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-09-14",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-09-23",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-09-27",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-10-13",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2022-11-03",
+  "status": "ok",
+  "bars": 3,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-02-07",
+  "status": "ok",
+  "bars": 291,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-02-09",
+  "status": "ok",
+  "bars": 314,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-04-27",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-05-22",
+  "status": "ok",
+  "bars": 381,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-05-24",
+  "status": "ok",
+  "bars": 346,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-06-30",
+  "status": "ok",
+  "bars": 330,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-07-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-07-07",
+  "status": "ok",
+  "bars": 332,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-11-08",
+  "status": "ok",
+  "bars": 320,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2023-12-13",
+  "status": "ok",
+  "bars": 374,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-01-05",
+  "status": "ok",
+  "bars": 352,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-02-08",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-02-14",
+  "status": "ok",
+  "bars": 374,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-02-23",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-03-05",
+  "status": "ok",
+  "bars": 372,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-03-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-04-17",
+  "status": "ok",
+  "bars": 324,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-05-01",
+  "status": "ok",
+  "bars": 342,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-05-23",
+  "status": "ok",
+  "bars": 332,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-05-31",
+  "status": "ok",
+  "bars": 321,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-06-06",
+  "status": "ok",
+  "bars": 295,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-06-18",
+  "status": "ok",
+  "bars": 303,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-06-20",
+  "status": "ok",
+  "bars": 352,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-07-24",
+  "status": "ok",
+  "bars": 352,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-08",
+  "status": "ok",
+  "bars": 331,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-14",
+  "status": "ok",
+  "bars": 342,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-15",
+  "status": "ok",
+  "bars": 326,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-20",
+  "status": "ok",
+  "bars": 257,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-21",
+  "status": "ok",
+  "bars": 278,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-22",
+  "status": "ok",
+  "bars": 231,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-23",
+  "status": "ok",
+  "bars": 297,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-29",
+  "status": "ok",
+  "bars": 280,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-08-30",
+  "status": "ok",
+  "bars": 257,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-05",
+  "status": "ok",
+  "bars": 283,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-06",
+  "status": "ok",
+  "bars": 349,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-10",
+  "status": "ok",
+  "bars": 346,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 299,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-13",
+  "status": "ok",
+  "bars": 324,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-18",
+  "status": "ok",
+  "bars": 344,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-24",
+  "status": "ok",
+  "bars": 290,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-25",
+  "status": "ok",
+  "bars": 276,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-27",
+  "status": "ok",
+  "bars": 264,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-09-30",
+  "status": "ok",
+  "bars": 243,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-01",
+  "status": "ok",
+  "bars": 313,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-03",
+  "status": "ok",
+  "bars": 291,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-04",
+  "status": "ok",
+  "bars": 308,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-09",
+  "status": "ok",
+  "bars": 261,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-10",
+  "status": "ok",
+  "bars": 255,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-11",
+  "status": "ok",
+  "bars": 286,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-21",
+  "status": "ok",
+  "bars": 353,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-23",
+  "status": "ok",
+  "bars": 387,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-25",
+  "status": "ok",
+  "bars": 359,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-28",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-29",
+  "status": "ok",
+  "bars": 385,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-30",
+  "status": "ok",
+  "bars": 379,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-10-31",
+  "status": "ok",
+  "bars": 337,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-11-01",
+  "status": "ok",
+  "bars": 333,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2024-11-04",
+  "status": "ok",
+  "bars": 372,
+  "error": null
+ },
+ {
+  "ticker": "RUM",
+  "date": "2025-02-27",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "SBGSY",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 102,
+  "error": null
+ },
+ {
+  "ticker": "SBUX",
+  "date": "2022-07-18",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "SIEGY",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 87,
+  "error": null
+ },
+ {
+  "ticker": "SSNLF",
+  "date": "2022-10-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "T",
+  "date": "2025-06-30",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2022-05-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "TKO",
+  "date": "2023-11-13",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2023-11-15",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2023-11-30",
+  "status": "ok",
+  "bars": 378,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2023-12-18",
+  "status": "ok",
+  "bars": 369,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2023-12-19",
+  "status": "ok",
+  "bars": 377,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2024-03-12",
+  "status": "ok",
+  "bars": 344,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2024-05-20",
+  "status": "ok",
+  "bars": 334,
+  "error": null
+ },
+ {
+  "ticker": "TKO",
+  "date": "2024-08-09",
+  "status": "ok",
+  "bars": 289,
+  "error": null
+ },
+ {
+  "ticker": "TM",
+  "date": "2024-01-16",
+  "status": "ok",
+  "bars": 251,
+  "error": null
+ },
+ {
+  "ticker": "TM",
+  "date": "2024-01-22",
+  "status": "ok",
+  "bars": 269,
+  "error": null
+ },
+ {
+  "ticker": "TMO",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TRI",
+  "date": "2023-07-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "TRI",
+  "date": "2023-08-17",
+  "status": "ok",
+  "bars": 301,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2022-05-13",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2022-05-19",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2022-11-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2022-12-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-08-06",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-08-13",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-08-28",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-10-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-10-07",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-12-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-12-16",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2025-02-24",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2025-02-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2025-03-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2025-05-30",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2025-06-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "TTM",
+  "date": "2025-08-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Pro or Venture plan. Consider upgrading now at https://twelvedata.com/pric"
+ },
+ {
+  "ticker": "VG",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-08-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-08-03",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-09-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-10-04",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-10-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-11-17",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-11-21",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-01-10",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-01-18",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-04-21",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-05-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-05-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-05-24",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-05-31",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-06-02",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-07-25",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-08-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-08-07",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-11-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-11-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-12-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-12-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-12-22",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-01-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-01-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-01-17",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-01-26",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-03-20",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-03-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-04-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-04-12",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-05-14",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-05-15",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-05-27",
+  "status": "http_error",
+  "bars": 0,
+  "error": "400: {\"code\":400,\"message\":\"No data is available on the specified dates. Try setting different start/end dates.\",\"status\":\"error\",\"meta\":{\"symbol"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-05-29",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-06-05",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-07-09",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-08-01",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-08-27",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-10-28",
+  "status": "ok",
+  "bars": 388,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-11-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-12-26",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "WFC",
+  "date": "2023-07-11",
+  "status": "ok",
+  "bars": 390,
+  "error": null
+ },
+ {
+  "ticker": "X",
+  "date": "2024-09-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Grow or Venture plan. Consider upgrading now at https://twelvedata.com/pri"
+ },
+ {
+  "ticker": "X",
+  "date": "2025-05-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "404: {\"code\":404,\"message\":\"This symbol is available starting with the Grow or Venture plan. Consider upgrading now at https://twelvedata.com/pri"
+ },
+ {
+  "ticker": "Z",
+  "date": "2023-11-28",
+  "status": "ok",
+  "bars": 389,
+  "error": null
+ },
+ {
+  "ticker": "ZM",
+  "date": "2024-07-31",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ }
+]

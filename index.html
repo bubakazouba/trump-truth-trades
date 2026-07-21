@@ -186,6 +186,165 @@ footer{padding:40px 0 60px;color:var(--muted);font-family:var(--mono);font-size:
     </div>
   </section>
 
+<section class="speed viz-root" id="market-impact">
+<h2>Does Trump naming a company actually move its stock?</h2>
+<div class="hero">Almost never<br>more than noise</div>
+<p class="sub">This is the exhaustive test. An LLM read <b>all&nbsp;23,992</b> Trump Truth Social
+posts and flagged every publicly-traded company mentioned by name, brand, executive, or ticker —
+no keyword shortcuts. That yields <b>1,055</b> in-market-hours post–company pairs; <b>819</b>
+(from <b>726</b> distinct posts, across <b>62</b> tickers) had 1-minute price
+data on both sides of the post. For each we measure the <b>absolute</b> move of the stock versus the
+last price before the post — does it move <i>at all</i>, in either direction.</p>
+
+<div class="card">
+  <h3>The first minute barely registers</h3>
+  <p class="cap">Absolute move of the named stock, versus a same-day baseline: the same
+  stock's typical move over a 30-minute window that day. The <b>median</b> post (blue) tracks the
+  grey baseline almost exactly — the typical mention does nothing. The <b>mean</b> (green) drifts a
+  little higher only because a handful of genuine-news posts move a lot; see the movers table below.</p>
+  <div class="scroll">
+  <svg viewBox="0 0 736 300" class="chart" role="img" aria-label="Median absolute percent move by minutes after post, versus same-day baseline">
+    <line class="grid" x1="52" y1="266.0" x2="720" y2="266.0"/><line class="grid" x1="52" y1="155.9" x2="720" y2="155.9"/><line class="grid" x1="52" y1="45.8" x2="720" y2="45.8"/>
+    <line class="axis" x1="52" y1="266" x2="720" y2="266"/>
+    <line class="ref" x1="52" y1="156.0" x2="720" y2="156.0" stroke-dasharray="4 4"/>
+    <text class="reflab" x="720" y="151.0" text-anchor="end">same-day baseline 0.20%</text>
+    <text class="tick" x="44" y="269.0" text-anchor="end">0.00%</text><text class="tick" x="44" y="158.9" text-anchor="end">0.20%</text><text class="tick" x="44" y="48.8" text-anchor="end">0.40%</text><text class="tick" x="52.0" y="282" text-anchor="middle">0</text><text class="tick" x="163.3" y="282" text-anchor="middle">5</text><text class="tick" x="274.7" y="282" text-anchor="middle">10</text><text class="tick" x="386.0" y="282" text-anchor="middle">15</text><text class="tick" x="497.3" y="282" text-anchor="middle">20</text><text class="tick" x="608.7" y="282" text-anchor="middle">25</text><text class="tick" x="720.0" y="282" text-anchor="middle">30</text>
+    <text class="axlab" x="386" y="298" text-anchor="middle">minutes after post</text>
+    <path class="ln s2" d="M52.0,221.9 L74.3,205.5 L96.5,193.0 L118.8,188.3 L141.1,179.3 L163.3,179.6 L185.6,170.3 L207.9,160.9 L230.1,157.4 L252.4,154.9 L274.7,144.6 L296.9,138.7 L319.2,136.1 L341.5,130.8 L363.7,128.3 L386.0,126.4 L408.3,122.5 L430.5,119.7 L452.8,114.6 L475.1,114.2 L497.3,107.7 L519.6,100.8 L541.9,93.9 L564.1,93.0 L586.4,87.9 L608.7,81.6 L630.9,79.7 L653.2,75.6 L675.5,71.4 L697.7,70.4 L720.0,67.6" opacity="0.5"/>
+    <path class="ln s1" d="M52.0,246.5 L74.3,234.3 L96.5,227.8 L118.8,223.3 L141.1,218.1 L163.3,215.2 L185.6,210.9 L207.9,209.8 L230.1,200.8 L252.4,199.4 L274.7,194.6 L296.9,192.9 L319.2,188.4 L341.5,185.1 L363.7,182.2 L386.0,184.0 L408.3,178.2 L430.5,177.3 L452.8,181.2 L475.1,182.0 L497.3,173.8 L519.6,172.6 L541.9,165.7 L564.1,168.3 L586.4,164.3 L608.7,162.3 L630.9,160.2 L653.2,158.6 L675.5,156.6 L697.7,154.3 L720.0,154.6"/>
+  </svg>
+  </div>
+  <div class="legend">
+    <span><i class="key s1f" style="background:var(--series-1)"></i> median |move|</span>
+    <span><i class="key s2f" style="background:var(--series-2);opacity:.5"></i> mean |move|</span>
+    <span><i class="key" style="background:var(--muted)"></i> same-day baseline (noise)</span>
+  </div>
+</div>
+
+<div class="card">
+  <h3>By the numbers</h3>
+  <table>
+    <thead><tr><th>Measure</th><th>Value</th></tr></thead>
+    <tbody>
+      <tr><td>First-minute absolute move (median)</td><td><b>0.035%</b></td></tr>
+      <tr><td>Posts moving &lt;0.25% in first minute</td><td><b>780 of 819 (95%)</b></td></tr>
+      <tr><td>30-minute absolute move (median)</td><td>0.202%</td></tr>
+      <tr><td>Same-day baseline 30-min move (median)</td><td>0.200%</td></tr>
+      <tr><td>Excess over baseline</td><td><b>1.01×</b></td></tr>
+      <tr><td>Directional posts moving the "right" way at +30 min</td><td>57%</td></tr>
+    </tbody>
+  </table>
+  <p class="note">The post-minute move (<b>0.202%</b>) is essentially identical to a
+  random minute on the same day (<b>0.200%</b>) — a ratio of <b>1.01×</b>.
+  Statistically, the moment Trump names a company is indistinguishable from any other moment.</p>
+</div>
+
+<div class="card">
+  <h3>Where the real moves are</h3>
+  <p class="cap">The handful of posts that <i>did</i> move a stock &gt;2% were genuine news events —
+  a corporate threat, a feud, or Trump posting about his own company (DJT) — not routine mentions.
+  The largest single-post 30-minute moves:</p>
+  <div class="scroll">
+  <table>
+    <thead><tr><th>Ticker</th><th>Date</th><th>Stance</th><th>Move</th><th style="text-align:left">Mention</th></tr></thead>
+    <tbody><tr><td>TSLA</td><td>2025-06-05</td><td>A</td><td>4.50%</td><td style='text-align:left'>Elon was &quot;wearing thin&quot;</td></tr><tr><td>TSLA</td><td>2025-06-05</td><td>A</td><td>4.50%</td><td style='text-align:left'>terminate Elon&#x27;s Governmental Subs</td></tr><tr><td>DJT</td><td>2024-11-08</td><td>P</td><td>3.97%</td><td style='text-align:left'>selling shares of Truth</td></tr><tr><td>BZFD</td><td>2023-10-24</td><td>N</td><td>3.36%</td><td style='text-align:left'>Huffington Post</td></tr><tr><td>CBRL</td><td>2025-08-26</td><td>A</td><td>3.27%</td><td style='text-align:left'>Cracker Barrel</td></tr><tr><td>DJT</td><td>2024-04-29</td><td>P</td><td>3.23%</td><td style='text-align:left'>TRUTH SOCIAL</td></tr><tr><td>DJT</td><td>2024-03-26</td><td>P</td><td>2.95%</td><td style='text-align:left'>TRUTH SOCIAL</td></tr><tr><td>DJT</td><td>2024-09-09</td><td>P</td><td>2.92%</td><td style='text-align:left'>TRUTH SOCIAL</td></tr></tbody>
+  </table>
+  </div>
+</div>
+
+<details>
+  <summary>Composition &amp; method</summary>
+  <table>
+    <thead><tr><th>Stance</th><th>In-hours pairs</th></tr></thead>
+    <tbody>
+      <tr><td>ATTACK</td><td>215</td></tr>
+      <tr><td>PRAISE</td><td>83</td></tr>
+      <tr><td>NEUTRAL (link / name-drop)</td><td>521</td></tr>
+    </tbody>
+  </table>
+  <p class="note">Only <b>36%</b>
+  of in-hours company mentions take a stance; the majority are Trump citing an outlet (Fox, NYT,
+  NYPost) as a news source — not commentary on the company. Most-mentioned tickers:</p>
+  <div class="scroll"><table><thead><tr><th>Ticker</th><th>Pairs</th></tr></thead><tbody><tr><td>FOXA</td><td>238</td></tr><tr><td>NWSA</td><td>92</td></tr><tr><td>WBD</td><td>83</td></tr><tr><td>RUM</td><td>77</td></tr><tr><td>NYT</td><td>37</td></tr><tr><td>CMCSA</td><td>36</td></tr><tr><td>META</td><td>28</td></tr><tr><td>DIS</td><td>28</td></tr><tr><td>GOOGL</td><td>24</td></tr><tr><td>TSLA</td><td>21</td></tr><tr><td>AMZN</td><td>18</td></tr><tr><td>TKO</td><td>16</td></tr></tbody></table></div>
+  <p class="note">Prices are 1-minute bars: Polygon.io where its free tier reaches (~2 years), and
+  Twelve Data for older dates (validated against Polygon: 390/390 bars match, mean close difference
+  0.0005%). "Absolute move" is |price(t) − reference| / reference, where reference is the last
+  regular-hours bar before the post minute. Baseline is the same stock's absolute 30-min move from
+  the session midpoint that day. Company detection is an LLM pass over every post; stance is a
+  second LLM pass. Raw data and scripts are in the repo.</p>
+</details>
+</section>
+
+<section class="speed viz-root" id="methodology">
+<h2>Full methodology — how these numbers were produced</h2>
+<p class="sub">Every figure on this page traces to a file in the
+<a href="https://github.com/bubakazouba/trump-truth-trades">public repo</a>. Nothing is estimated or
+hand-tuned. The pipeline below turns 29,469 raw posts into 819 minute-level market reactions.</p>
+
+<div class="card">
+  <h3>1 · Posts</h3>
+  <p class="cap">Source: the <b>Matt Stiles Trump Truth Social Archive</b> (CC0). 29,469 total posts,
+  of which <b>23,992</b> carry ≥15 characters of real text after stripping HTML and media-only
+  reposts. Span: 2022-02-14 → 2026-05-02.</p>
+</div>
+
+<div class="card">
+  <h3>2 · Company detection — exhaustive LLM sweep (no keyword shortcuts)</h3>
+  <p class="cap">All 23,992 content posts were split into 120 chunks and read by an LLM (Claude), one
+  agent per chunk, with 100% coverage and zero errors. For every post it extracted each
+  publicly-traded company referenced by <b>name, brand, executive, product/subsidiary, or ticker</b>
+  (e.g. "iPhone"→Apple, "CNN"→Warner Bros Discovery, "Elon Musk"→Tesla, "$DJT"→Trump Media), with a
+  US-listed ticker and the verbatim triggering phrase. Result: <b>3,622 mentions across 119
+  tickers</b> — vs the 67-company keyword map the original analysis used. → <code>data/sweep_*.json</code></p>
+</div>
+
+<div class="card">
+  <h3>3 · In-hours filter &amp; stance</h3>
+  <p class="cap">Pairs were kept only if the post landed <b>Mon–Fri, 9:30–16:00 ET</b> (when the
+  named stock is actually trading): <b>1,055 in-market-hours pairs</b>. A second LLM pass labeled each
+  pair's stance toward that company — PRAISE / ATTACK / NEUTRAL, plus a "substantive" flag and a
+  verbatim quote. Split: 243 attack, 130 praise, <b>682 neutral</b> (mostly Trump citing an outlet as
+  a news source, not commenting on the company). → <code>data/sweep_inhours_labeled.json</code></p>
+</div>
+
+<div class="card">
+  <h3>4 · Prices — 1-minute bars, with a validated free backfill</h3>
+  <p class="cap">Intraday prices are 1-minute OHLCV bars. <b>Polygon.io</b> is used where its free tier
+  reaches (~2 years); older ticker-days — which Polygon's free tier refuses — are backfilled from
+  <b>Twelve Data</b>, written in Polygon's exact JSON schema so the analysis is source-agnostic.
+  Twelve Data was validated against Polygon on an overlapping day: <b>390/390 regular-hours bars
+  matched, mean close difference 0.0005%</b>. 697 ticker-day bar files total (was 70).
+  → <code>scripts/fetch_bars_td.py</code>, <code>data/polygon_bars/</code></p>
+</div>
+
+<div class="card">
+  <h3>5 · Reaction measurement</h3>
+  <p class="cap">For each in-hours pair with bars on both sides of the post, the
+  <b>reference</b> is the close of the last regular-hours bar strictly <i>before</i> the post minute;
+  the <b>anchor</b> is the post-minute bar (or next available). The cumulative % move is tracked from
+  0 to 60 minutes after. The headline measure is <b>absolute</b> move — |price − reference| / reference
+  — i.e. does the stock move <i>at all</i>, either direction, needing no stance. Each is compared to a
+  <b>same-day baseline</b>: the same stock's absolute 30-min move from a mid-session minute, so the
+  post-minute move is judged against that day's normal intraday noise. <b>819 of 1,055 pairs</b> had
+  full price windows and were measured (236 dropped: no bars, or incomplete window).
+  → <code>scripts/speed_analyze_full.py</code>, <code>data/speed_full_results.json</code></p>
+</div>
+
+<div class="card">
+  <h3>Honest limitations</h3>
+  <p class="cap">
+  <b>Correlation, not causation</b> — this measures the move <i>around</i> a post, not the move
+  <i>caused</i> by it; returns are raw (no market/sector benchmark subtracted), and other news can
+  arrive at the same moment. <b>Classification is model judgment</b> — company and stance labels are
+  the LLM's calls (verbatim quotes are provided so they can be spot-checked). <b>Concentration</b> —
+  a few media tickers (FOXA, NWSA, WBD, RUM, NMAX) dominate the counts, since Trump names news outlets
+  far more than other companies. <b>Measurement floor</b> — on low-priced names one tick can be
+  ~0.08%, so some "no move" readings are the price grid, not perfect calm (this makes the
+  no-reaction finding conservative, not overstated). <b>Non-independence</b> — a post naming several
+  companies produces several rows that move on the same sentence at the same instant.</p>
+</div>
+</section>
+
 <section class="speed viz-root" id="reaction-speed">
 <style>
 .speed {
@@ -260,24 +419,22 @@ footer{padding:40px 0 60px;color:var(--muted);font-family:var(--mono);font-size:
 .speed .warn{background:var(--surface-1);border:1px solid var(--border);border-left:3px solid #eda100;border-radius:8px;padding:12px 14px;font-size:13px;color:var(--text-secondary);line-height:1.6;margin:12px 0}
 </style>
 
-<h2>How fast does a stock move after Trump posts about it?</h2>
+<h2>The directional view (praise up, attack down)</h2>
 <div class="hero">The first minute is<br>a coin flip</div>
-<p class="sub">Measured on real Polygon 1-minute bars for <b>n&nbsp;=&nbsp;73</b> post–company observations
-(from <b>60</b> distinct posts) that landed while the market was open. Each move is signed in the
-direction the post pushed — praise up, attack down — so a positive number means the stock moved the way
-the post argued.
+<p class="sub">This is the earlier, <b>directional</b> cut, kept for detail: it signs each move in the
+direction the post pushed — praise up, attack down — so a positive number means the stock moved the
+way the post argued. It originally ran on <b>n&nbsp;=&nbsp;73</b> observations (60 distinct posts).
 <b>The median first-minute move is +0.00%</b>, and only <b>48%</b> of posts
 moved the right way in that minute — no better than chance. The mean move does reach
 <b>+0.139%</b> by +30&nbsp;min (70% hit rate), but it accumulates
 <i>gradually</i> — most of it appears between +5 and +15&nbsp;min, not on impact.</p>
 
-<div class="warn"><b>Sample-size warning — read this before the charts.</b> Of the
-<b>179</b> in-market-hours post–company pairs in the dataset, only <b>73</b> could be
-measured, and those come from just <b>60</b> distinct posts. Polygon's free tier serves roughly
-2 years of minute data, so <b>94</b> ticker-days (everything before ~mid-2024) return
-<i>NOT_AUTHORIZED</i> and cannot be priced at all — that alone removes 102
-observations. This is a small, recency-skewed sample and the observations are not independent
-(see the method note). Treat every number here as indicative, not conclusive.</div>
+<div class="warn"><b>Superseded by the section above.</b> This chart originally covered only <b>73</b>
+of the 179 in-hours pairs, because Polygon's free tier stops at ~2 years and older ticker-days
+couldn't be priced. That gap is now closed — the older bars were backfilled from Twelve Data, and an
+exhaustive LLM sweep expanded the universe to <b>819</b> measured pairs across 62 tickers (the
+"Almost never more than noise" section above). The conclusion held: naming a company moves it no more
+than a random minute. This directional view is retained for the praise-vs-attack breakdown.</div>
 
 <div class="card">
   <h3>Reaction curve — the move by minute</h3>
