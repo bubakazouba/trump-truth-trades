@@ -1,0 +1,46 @@
+[
+ {
+  "id": "113781647532063909",
+  "created_at": "2025-01-06T13:29:18.879Z",
+  "company": "US Steel",
+  "ticker": "X",
+  "text": "Why would they want to sell U.S. Steel now when Tariffs will make it a much more profitable and valuable company? Wouldn’t it be nice to have U.S. Steel, once the greatest company in the World, lead the charge toward greatness again? It can all happen very quickly!",
+  "sentiment": "PRAISE",
+  "substantive": true,
+  "quote": "U.S. Steel, once the greatest company in the World, lead the charge toward greatness",
+  "_drop": "no ticker data"
+ },
+ {
+  "id": "113586503722263487",
+  "created_at": "2024-12-03T02:21:40.649Z",
+  "company": "US Steel",
+  "ticker": "X",
+  "text": "I am totally against the once great and powerful U.S. Steel being bought by a foreign company, in this case Nippon Steel of Japan. Through a series of Tax Incentives and Tariffs, we will make U.S. Steel Strong and Great Again, and it will happen FAST! As President, I will block this deal from happening. Buyer Beware!!!",
+  "sentiment": "PRAISE",
+  "substantive": true,
+  "quote": "we will make U.S. Steel Strong and Great Again",
+  "_drop": "no ticker data"
+ },
+ {
+  "id": "113193949253707870",
+  "created_at": "2024-09-24T18:29:54.815Z",
+  "company": "US Steel",
+  "ticker": "X",
+  "text": "Under Kamala, there will be no car industry, no steel industry, no significant manufacturing of any kind—and we will be at risk of military defeat...and I am not going to allow Japan to buy U.S. Steel, 70 years ago the greatest company on earth!",
+  "sentiment": "PRAISE",
+  "substantive": true,
+  "quote": "U.S. Steel, 70 years ago the greatest company on earth",
+  "_drop": "no ticker data"
+ },
+ {
+  "id": "114558783827880495",
+  "created_at": "2025-05-23T19:25:17.732Z",
+  "company": "US Steel",
+  "ticker": "X",
+  "text": "I am proud to announce that, after much consideration and negotiation, US Steel will REMAIN in America, and keep its Headquarters in the Great City of Pittsburgh. For many years, the name, “United States Steel” was synonymous with Greatness, and now, it will be again. This will be a planned partnership between United States Steel and Nippon Steel, which will create at least 70,000 jobs, and add $14 Billion Dollars to the U.S. Economy. The bulk of that Investment will occur in the next 14 months. This is the largest Investment in the History of the Commonwealth of Pennsylvania. My Tariff Policies will ensure that Steel will once again be, forever, MADE IN AMERICA. From Pennsylvania to Arkansas, and from Minnesota to Indiana, AMERICAN MADE is BACK. I will see you all at US Steel, in Pittsburgh, on Friday, May 30th, for a BIG Rally. CONGRATULATIONS TO ALL!",
+  "sentiment": "PRAISE",
+  "substantive": true,
+  "quote": "US Steel will REMAIN in America, and keep its Headquarters",
+  "_drop": "no ticker data"
+ }
+]

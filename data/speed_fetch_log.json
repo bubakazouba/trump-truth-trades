@@ -1,0 +1,1138 @@
+[
+ {
+  "ticker": "NVDA",
+  "date": "2025-10-23",
+  "status": "cached",
+  "bars": 944
+ },
+ {
+  "ticker": "F",
+  "date": "2025-10-22",
+  "status": "cached",
+  "bars": 586
+ },
+ {
+  "ticker": "GM",
+  "date": "2025-10-22",
+  "status": "ok",
+  "bars": 534,
+  "error": null
+ },
+ {
+  "ticker": "INTC",
+  "date": "2025-10-07",
+  "status": "cached",
+  "bars": 904
+ },
+ {
+  "ticker": "BA",
+  "date": "2025-09-19",
+  "status": "ok",
+  "bars": 560,
+  "error": null
+ },
+ {
+  "ticker": "AAPL",
+  "date": "2025-09-05",
+  "status": "rate_limited",
+  "bars": 0,
+  "error": "{\"status\":\"ERROR\",\"request_id\":\"925a581472d6ad3e0bc4e32b794e1930\",\"error\":\"You've exceeded the maximum requests per minute, please wait or upgrade your subscription to continue. https://massive.com/pr"
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2025-09-05",
+  "status": "ok",
+  "bars": 685,
+  "error": null
+ },
+ {
+  "ticker": "GS",
+  "date": "2025-08-12",
+  "status": "cached",
+  "bars": 389
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-08-07",
+  "status": "ok",
+  "bars": 391,
+  "error": null
+ },
+ {
+  "ticker": "AEO",
+  "date": "2025-08-04",
+  "status": "cached",
+  "bars": 723
+ },
+ {
+  "ticker": "PARA",
+  "date": "2025-07-22",
+  "status": "ok",
+  "bars": 395,
+  "error": null
+ },
+ {
+  "ticker": "BA",
+  "date": "2025-07-22",
+  "status": "rate_limited",
+  "bars": 0,
+  "error": "{\"status\":\"ERROR\",\"request_id\":\"894223199c69461acfa9f9083037e2df\",\"error\":\"You've exceeded the maximum requests per minute, please wait or upgrade your subscription to continue. https://massive.com/pr"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-07-22",
+  "status": "ok",
+  "bars": 380,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2025-07-22",
+  "status": "ok",
+  "bars": 434,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-07-18",
+  "status": "exception",
+  "bars": 0,
+  "error": "URLError(TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has faile"
+ },
+ {
+  "ticker": "BA",
+  "date": "2025-07-15",
+  "status": "ok",
+  "bars": 506,
+  "error": null
+ },
+ {
+  "ticker": "NVDA",
+  "date": "2025-07-10",
+  "status": "ok",
+  "bars": 954,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-06-26",
+  "status": "ok",
+  "bars": 341,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2025-06-26",
+  "status": "ok",
+  "bars": 431,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-06-25",
+  "status": "ok",
+  "bars": 366,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2025-06-25",
+  "status": "ok",
+  "bars": 424,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-06-23",
+  "status": "ok",
+  "bars": 441,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2025-06-23",
+  "status": "ok",
+  "bars": 441,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-05-09",
+  "status": "ok",
+  "bars": 403,
+  "error": null
+ },
+ {
+  "ticker": "BA",
+  "date": "2025-05-09",
+  "status": "ok",
+  "bars": 563,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2025-05-07",
+  "status": "ok",
+  "bars": 397,
+  "error": null
+ },
+ {
+  "ticker": "LLY",
+  "date": "2025-05-06",
+  "status": "ok",
+  "bars": 448,
+  "error": null
+ },
+ {
+  "ticker": "NVDA",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 960,
+  "error": null
+ },
+ {
+  "ticker": "LLY",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 622,
+  "error": null
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 904,
+  "error": null
+ },
+ {
+  "ticker": "GE",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 413,
+  "error": null
+ },
+ {
+  "ticker": "MRK",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 427,
+  "error": null
+ },
+ {
+  "ticker": "IBM",
+  "date": "2025-05-01",
+  "status": "ok",
+  "bars": 430,
+  "error": null
+ },
+ {
+  "ticker": "NYT",
+  "date": "2025-04-30",
+  "status": "ok",
+  "bars": 371,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2025-04-30",
+  "status": "ok",
+  "bars": 404,
+  "error": null
+ },
+ {
+  "ticker": "BA",
+  "date": "2025-04-24",
+  "status": "ok",
+  "bars": 506,
+  "error": null
+ },
+ {
+  "ticker": "NVDA",
+  "date": "2025-04-14",
+  "status": "ok",
+  "bars": 960,
+  "error": null
+ },
+ {
+  "ticker": "NVDA",
+  "date": "2025-03-20",
+  "status": "ok",
+  "bars": 959,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2025-03-19",
+  "status": "ok",
+  "bars": 428,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2025-03-19",
+  "status": "ok",
+  "bars": 959,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2025-03-10",
+  "status": "ok",
+  "bars": 487,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2025-02-25",
+  "status": "ok",
+  "bars": 401,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2025-01-28",
+  "status": "ok",
+  "bars": 495,
+  "error": null
+ },
+ {
+  "ticker": "SFTBY",
+  "date": "2024-12-16",
+  "status": "ok",
+  "bars": 395,
+  "error": null
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2024-11-19",
+  "status": "ok",
+  "bars": 948,
+  "error": null
+ },
+ {
+  "ticker": "JPM",
+  "date": "2024-11-14",
+  "status": "ok",
+  "bars": 425,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-10-25",
+  "status": "ok",
+  "bars": 440,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-10-21",
+  "status": "ok",
+  "bars": 426,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-10-17",
+  "status": "ok",
+  "bars": 424,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-10-10",
+  "status": "ok",
+  "bars": 416,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-10-09",
+  "status": "ok",
+  "bars": 406,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-09-30",
+  "status": "ok",
+  "bars": 846,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-09-27",
+  "status": "ok",
+  "bars": 534,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-09-13",
+  "status": "ok",
+  "bars": 454,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-09-12",
+  "status": "ok",
+  "bars": 528,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-09-09",
+  "status": "ok",
+  "bars": 839,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-08-29",
+  "status": "ok",
+  "bars": 431,
+  "error": null
+ },
+ {
+  "ticker": "META",
+  "date": "2024-08-29",
+  "status": "ok",
+  "bars": 550,
+  "error": null
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-08-27",
+  "status": "ok",
+  "bars": 404,
+  "error": null
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-08-22",
+  "status": "ok",
+  "bars": 764,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-08-14",
+  "status": "ok",
+  "bars": 715,
+  "error": null
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-08-01",
+  "status": "ok",
+  "bars": 451,
+  "error": null
+ },
+ {
+  "ticker": "DIS",
+  "date": "2024-08-01",
+  "status": "ok",
+  "bars": 499,
+  "error": null
+ },
+ {
+  "ticker": "META",
+  "date": "2024-07-30",
+  "status": "ok",
+  "bars": 663,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-07-30",
+  "status": "ok",
+  "bars": 664,
+  "error": null
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-07-29",
+  "status": "ok",
+  "bars": 637,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-07-29",
+  "status": "ok",
+  "bars": 451,
+  "error": null
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-07-23",
+  "status": "ok",
+  "bars": 382,
+  "error": null
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-07-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2024-06-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-06-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2024-06-19",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-05-09",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-04-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2024-04-15",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-03-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-03-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-03-27",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2024-03-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-03-14",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-02-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "BUD",
+  "date": "2024-02-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2024-01-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2024-01-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-01-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-01-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2024-01-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2024-01-01",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-12-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-11-28",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-11-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-11-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-10-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-09-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "AMZN",
+  "date": "2023-09-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-09-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-08-14",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-07-21",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-07-11",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-06-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "AAPL",
+  "date": "2023-06-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-05-15",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-05-11",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-05-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-04-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-04-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "TSLA",
+  "date": "2023-04-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-04-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DIS",
+  "date": "2023-04-14",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "AAPL",
+  "date": "2023-03-17",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-02-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-02-21",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-02-16",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-02-14",
+  "status": "exception",
+  "bars": 0,
+  "error": "URLError(TimeoutError(10060, 'A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has faile"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-02-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-02-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "GOOGL",
+  "date": "2023-02-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2023-02-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-02-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-02-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2023-01-31",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-01-31",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-01-31",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2023-01-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-01-11",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-01-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2023-01-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2023-01-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-01-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2023-01-02",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-12-15",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-12-09",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2022-12-09",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-12-08",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-12-07",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-11-30",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-11-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2022-11-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-11-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-11-10",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-10-31",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-10-05",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-10-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2022-10-03",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-09-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2022-09-29",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-09-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2022-09-23",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "META",
+  "date": "2022-09-22",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-09-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-09-12",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "PARA",
+  "date": "2022-09-12",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-08-24",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "WBD",
+  "date": "2022-08-04",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-07-26",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "NYT",
+  "date": "2022-07-12",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "BA",
+  "date": "2022-07-06",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "CMCSA",
+  "date": "2022-05-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-20",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "FOXA",
+  "date": "2022-05-18",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ },
+ {
+  "ticker": "DJT",
+  "date": "2022-05-13",
+  "status": "http_error",
+  "bars": 0,
+  "error": "Your plan doesn't include this data timeframe. Please upgrade your plan at https://polygon.io/pricing"
+ }
+]
